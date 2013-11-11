@@ -19,6 +19,26 @@
 		E407CA8D18308103007B266A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E407CA7518308103007B266A /* UIKit.framework */; };
 		E407CA9518308103007B266A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E407CA9318308103007B266A /* InfoPlist.strings */; };
 		E407CA9718308103007B266A /* DZprojectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CA9618308103007B266A /* DZprojectTests.m */; };
+		E407CAA318308138007B266A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E407CAA218308138007B266A /* MainStoryboard.storyboard */; };
+		E407CAA618308161007B266A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CAA518308161007B266A /* RootViewController.m */; };
+		E407CAAA183081EE007B266A /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CAA9183081EE007B266A /* KxMenu.m */; };
+		E407CAAE18308202007B266A /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = E407CAAB18308202007B266A /* more.png */; };
+		E407CAAF18308202007B266A /* eat.png in Resources */ = {isa = PBXBuildFile; fileRef = E407CAAC18308202007B266A /* eat.png */; };
+		E407CAB018308202007B266A /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = E407CAAD18308202007B266A /* love.png */; };
+		E407CAB51830823D007B266A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CAB41830823D007B266A /* Reachability.m */; };
+		E407CACE1830824F007B266A /* PBBarButtonIconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CAB71830824F007B266A /* PBBarButtonIconButton.m */; };
+		E407CACF1830824F007B266A /* PBFlatBarButtonItems.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CAB91830824F007B266A /* PBFlatBarButtonItems.m */; };
+		E407CAD01830824F007B266A /* PBFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CABB1830824F007B266A /* PBFlatButton.m */; };
+		E407CAD11830824F007B266A /* PBFlatButtonWithIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CABD1830824F007B266A /* PBFlatButtonWithIcon.m */; };
+		E407CAD21830824F007B266A /* PBFlatGroupedStyleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CABF1830824F007B266A /* PBFlatGroupedStyleCell.m */; };
+		E407CAD31830824F007B266A /* PBFlatGroupedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CAC11830824F007B266A /* PBFlatGroupedTableViewController.m */; };
+		E407CAD41830824F007B266A /* PBFlatRoundedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CAC31830824F007B266A /* PBFlatRoundedImageView.m */; };
+		E407CAD51830824F007B266A /* PBFlatSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CAC51830824F007B266A /* PBFlatSegmentedControl.m */; };
+		E407CAD61830824F007B266A /* PBFlatSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CAC71830824F007B266A /* PBFlatSettings.m */; };
+		E407CAD71830824F007B266A /* PBFlatTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CAC91830824F007B266A /* PBFlatTextfield.m */; };
+		E407CAD81830824F007B266A /* PBIconDrawning.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CACB1830824F007B266A /* PBIconDrawning.m */; };
+		E407CAD91830824F007B266A /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CACD1830824F007B266A /* UIImage+Additions.m */; };
+		E407CADC183083D8007B266A /* DZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CADB183083D8007B266A /* DZViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +68,42 @@
 		E407CA9218308103007B266A /* DZprojectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DZprojectTests-Info.plist"; sourceTree = "<group>"; };
 		E407CA9418308103007B266A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E407CA9618308103007B266A /* DZprojectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZprojectTests.m; sourceTree = "<group>"; };
+		E407CAA218308138007B266A /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E407CAA418308161007B266A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E407CAA518308161007B266A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E407CAA8183081EE007B266A /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
+		E407CAA9183081EE007B266A /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
+		E407CAAB18308202007B266A /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
+		E407CAAC18308202007B266A /* eat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eat.png; sourceTree = "<group>"; };
+		E407CAAD18308202007B266A /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
+		E407CAB31830823D007B266A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "../../../../../Reachability-master/Reachability.h"; sourceTree = "<group>"; };
+		E407CAB41830823D007B266A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "../../../../../Reachability-master/Reachability.m"; sourceTree = "<group>"; };
+		E407CAB61830824F007B266A /* PBBarButtonIconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBBarButtonIconButton.h; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBBarButtonIconButton.h"; sourceTree = "<group>"; };
+		E407CAB71830824F007B266A /* PBBarButtonIconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBBarButtonIconButton.m; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBBarButtonIconButton.m"; sourceTree = "<group>"; };
+		E407CAB81830824F007B266A /* PBFlatBarButtonItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatBarButtonItems.h; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatBarButtonItems.h"; sourceTree = "<group>"; };
+		E407CAB91830824F007B266A /* PBFlatBarButtonItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatBarButtonItems.m; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatBarButtonItems.m"; sourceTree = "<group>"; };
+		E407CABA1830824F007B266A /* PBFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatButton.h; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatButton.h"; sourceTree = "<group>"; };
+		E407CABB1830824F007B266A /* PBFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatButton.m; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatButton.m"; sourceTree = "<group>"; };
+		E407CABC1830824F007B266A /* PBFlatButtonWithIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatButtonWithIcon.h; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatButtonWithIcon.h"; sourceTree = "<group>"; };
+		E407CABD1830824F007B266A /* PBFlatButtonWithIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatButtonWithIcon.m; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatButtonWithIcon.m"; sourceTree = "<group>"; };
+		E407CABE1830824F007B266A /* PBFlatGroupedStyleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatGroupedStyleCell.h; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatGroupedStyleCell.h"; sourceTree = "<group>"; };
+		E407CABF1830824F007B266A /* PBFlatGroupedStyleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatGroupedStyleCell.m; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatGroupedStyleCell.m"; sourceTree = "<group>"; };
+		E407CAC01830824F007B266A /* PBFlatGroupedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatGroupedTableViewController.h; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatGroupedTableViewController.h"; sourceTree = "<group>"; };
+		E407CAC11830824F007B266A /* PBFlatGroupedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatGroupedTableViewController.m; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatGroupedTableViewController.m"; sourceTree = "<group>"; };
+		E407CAC21830824F007B266A /* PBFlatRoundedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatRoundedImageView.h; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatRoundedImageView.h"; sourceTree = "<group>"; };
+		E407CAC31830824F007B266A /* PBFlatRoundedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatRoundedImageView.m; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatRoundedImageView.m"; sourceTree = "<group>"; };
+		E407CAC41830824F007B266A /* PBFlatSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatSegmentedControl.h; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatSegmentedControl.h"; sourceTree = "<group>"; };
+		E407CAC51830824F007B266A /* PBFlatSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatSegmentedControl.m; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatSegmentedControl.m"; sourceTree = "<group>"; };
+		E407CAC61830824F007B266A /* PBFlatSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatSettings.h; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatSettings.h"; sourceTree = "<group>"; };
+		E407CAC71830824F007B266A /* PBFlatSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatSettings.m; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatSettings.m"; sourceTree = "<group>"; };
+		E407CAC81830824F007B266A /* PBFlatTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBFlatTextfield.h; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatTextfield.h"; sourceTree = "<group>"; };
+		E407CAC91830824F007B266A /* PBFlatTextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBFlatTextfield.m; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBFlatTextfield.m"; sourceTree = "<group>"; };
+		E407CACA1830824F007B266A /* PBIconDrawning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBIconDrawning.h; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBIconDrawning.h"; sourceTree = "<group>"; };
+		E407CACB1830824F007B266A /* PBIconDrawning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBIconDrawning.m; path = "../../../../框架/FlatUI-master/FlatUI/Classess/PBIconDrawning.m"; sourceTree = "<group>"; };
+		E407CACC1830824F007B266A /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Additions.h"; path = "../../../../框架/FlatUI-master/FlatUI/Classess/UIImage+Additions.h"; sourceTree = "<group>"; };
+		E407CACD1830824F007B266A /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Additions.m"; path = "../../../../框架/FlatUI-master/FlatUI/Classess/UIImage+Additions.m"; sourceTree = "<group>"; };
+		E407CADA183083D8007B266A /* DZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZViewController.h; sourceTree = "<group>"; };
+		E407CADB183083D8007B266A /* DZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +163,11 @@
 		E407CA7718308103007B266A /* DZproject */ = {
 			isa = PBXGroup;
 			children = (
-				E407CA8018308103007B266A /* LGQAppDelegate.h */,
-				E407CA8118308103007B266A /* LGQAppDelegate.m */,
+				E407CAB21830822D007B266A /* FlatUI */,
+				E407CAB118308214007B266A /* Reachability */,
+				E407CAA7183081C9007B266A /* KxMenu */,
+				E407CAA11830811A007B266A /* classes */,
+				E407CAA01830810C007B266A /* imgages */,
 				E407CA8318308103007B266A /* Images.xcassets */,
 				E407CA7818308103007B266A /* Supporting Files */,
 			);
@@ -142,6 +201,79 @@
 				E407CA9318308103007B266A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E407CAA01830810C007B266A /* imgages */ = {
+			isa = PBXGroup;
+			children = (
+				E407CAAB18308202007B266A /* more.png */,
+				E407CAAC18308202007B266A /* eat.png */,
+				E407CAAD18308202007B266A /* love.png */,
+			);
+			name = imgages;
+			sourceTree = "<group>";
+		};
+		E407CAA11830811A007B266A /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				E407CA8018308103007B266A /* LGQAppDelegate.h */,
+				E407CA8118308103007B266A /* LGQAppDelegate.m */,
+				E407CAA218308138007B266A /* MainStoryboard.storyboard */,
+				E407CAA418308161007B266A /* RootViewController.h */,
+				E407CAA518308161007B266A /* RootViewController.m */,
+				E407CADA183083D8007B266A /* DZViewController.h */,
+				E407CADB183083D8007B266A /* DZViewController.m */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		E407CAA7183081C9007B266A /* KxMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E407CAA8183081EE007B266A /* KxMenu.h */,
+				E407CAA9183081EE007B266A /* KxMenu.m */,
+			);
+			name = KxMenu;
+			sourceTree = "<group>";
+		};
+		E407CAB118308214007B266A /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				E407CAB31830823D007B266A /* Reachability.h */,
+				E407CAB41830823D007B266A /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		E407CAB21830822D007B266A /* FlatUI */ = {
+			isa = PBXGroup;
+			children = (
+				E407CAB61830824F007B266A /* PBBarButtonIconButton.h */,
+				E407CAB71830824F007B266A /* PBBarButtonIconButton.m */,
+				E407CAB81830824F007B266A /* PBFlatBarButtonItems.h */,
+				E407CAB91830824F007B266A /* PBFlatBarButtonItems.m */,
+				E407CABA1830824F007B266A /* PBFlatButton.h */,
+				E407CABB1830824F007B266A /* PBFlatButton.m */,
+				E407CABC1830824F007B266A /* PBFlatButtonWithIcon.h */,
+				E407CABD1830824F007B266A /* PBFlatButtonWithIcon.m */,
+				E407CABE1830824F007B266A /* PBFlatGroupedStyleCell.h */,
+				E407CABF1830824F007B266A /* PBFlatGroupedStyleCell.m */,
+				E407CAC01830824F007B266A /* PBFlatGroupedTableViewController.h */,
+				E407CAC11830824F007B266A /* PBFlatGroupedTableViewController.m */,
+				E407CAC21830824F007B266A /* PBFlatRoundedImageView.h */,
+				E407CAC31830824F007B266A /* PBFlatRoundedImageView.m */,
+				E407CAC41830824F007B266A /* PBFlatSegmentedControl.h */,
+				E407CAC51830824F007B266A /* PBFlatSegmentedControl.m */,
+				E407CAC61830824F007B266A /* PBFlatSettings.h */,
+				E407CAC71830824F007B266A /* PBFlatSettings.m */,
+				E407CAC81830824F007B266A /* PBFlatTextfield.h */,
+				E407CAC91830824F007B266A /* PBFlatTextfield.m */,
+				E407CACA1830824F007B266A /* PBIconDrawning.h */,
+				E407CACB1830824F007B266A /* PBIconDrawning.m */,
+				E407CACC1830824F007B266A /* UIImage+Additions.h */,
+				E407CACD1830824F007B266A /* UIImage+Additions.m */,
+			);
+			name = FlatUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +352,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E407CAA318308138007B266A /* MainStoryboard.storyboard in Resources */,
 				E407CA7C18308103007B266A /* InfoPlist.strings in Resources */,
+				E407CAAF18308202007B266A /* eat.png in Resources */,
+				E407CAAE18308202007B266A /* more.png in Resources */,
 				E407CA8418308103007B266A /* Images.xcassets in Resources */,
+				E407CAB018308202007B266A /* love.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +376,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E407CAD81830824F007B266A /* PBIconDrawning.m in Sources */,
+				E407CAD31830824F007B266A /* PBFlatGroupedTableViewController.m in Sources */,
+				E407CAD71830824F007B266A /* PBFlatTextfield.m in Sources */,
+				E407CAD91830824F007B266A /* UIImage+Additions.m in Sources */,
+				E407CADC183083D8007B266A /* DZViewController.m in Sources */,
+				E407CACE1830824F007B266A /* PBBarButtonIconButton.m in Sources */,
+				E407CACF1830824F007B266A /* PBFlatBarButtonItems.m in Sources */,
+				E407CAD61830824F007B266A /* PBFlatSettings.m in Sources */,
 				E407CA7E18308103007B266A /* main.m in Sources */,
+				E407CAD21830824F007B266A /* PBFlatGroupedStyleCell.m in Sources */,
 				E407CA8218308103007B266A /* LGQAppDelegate.m in Sources */,
+				E407CAD51830824F007B266A /* PBFlatSegmentedControl.m in Sources */,
+				E407CAA618308161007B266A /* RootViewController.m in Sources */,
+				E407CAD41830824F007B266A /* PBFlatRoundedImageView.m in Sources */,
+				E407CAAA183081EE007B266A /* KxMenu.m in Sources */,
+				E407CAD11830824F007B266A /* PBFlatButtonWithIcon.m in Sources */,
+				E407CAD01830824F007B266A /* PBFlatButton.m in Sources */,
+				E407CAB51830823D007B266A /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

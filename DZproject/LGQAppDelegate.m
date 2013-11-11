@@ -7,15 +7,23 @@
 //
 
 #import "LGQAppDelegate.h"
+#import "Reachability.h"
 
 @implementation LGQAppDelegate
+@synthesize hostReach;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    // Override point for customization after application launch.
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
+    hostReach =[Reachability reachabilityWithHostname:@"http://www.dianping.com"];
+    [hostReach startNotifier];
+
+    
     return YES;
 }
 
@@ -44,6 +52,20 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(void)reachabilityChanged:(NSNotification *)note
+{
+    Reachability * reach = [note object];
+    UIAlertView * alert ;
+    if([reach isReachable])
+    {
+        //        alert =[[UIAlertView alloc] initWithTitle:@"提示" message:@"网络连接通畅" delegate:self cancelButtonTitle:nil otherButtonTitles:@"ok", nil];
+        //        [alert show];
+    }else{
+        alert =[[UIAlertView alloc] initWithTitle:@"提示" message:@"网络连接失败" delegate:self cancelButtonTitle:nil otherButtonTitles:@"ok", nil];
+        [alert show];
+    }
 }
 
 @end
