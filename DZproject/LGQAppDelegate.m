@@ -19,11 +19,10 @@
 //    self.window.backgroundColor = [UIColor whiteColor];
 //    [self.window makeKeyAndVisible];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
+    //检测网络状态
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:Nil];
     hostReach =[Reachability reachabilityWithHostname:@"http://www.dianping.com"];
     [hostReach startNotifier];
-
-    
     return YES;
 }
 
@@ -60,12 +59,13 @@
     UIAlertView * alert ;
     if([reach isReachable])
     {
-        //        alert =[[UIAlertView alloc] initWithTitle:@"提示" message:@"网络连接通畅" delegate:self cancelButtonTitle:nil otherButtonTitles:@"ok", nil];
-        //        [alert show];
+//        alert =[[UIAlertView alloc] initWithTitle:@"提示" message:@"网络连接通畅" delegate:self cancelButtonTitle:nil otherButtonTitles:@"ok", nil];
+//        [alert show];
     }else{
         alert =[[UIAlertView alloc] initWithTitle:@"提示" message:@"网络连接失败" delegate:self cancelButtonTitle:nil otherButtonTitles:@"ok", nil];
         [alert show];
     }
+
 }
 
 @end
