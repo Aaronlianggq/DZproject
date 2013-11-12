@@ -1,25 +1,23 @@
 //
-//  DZViewController.m
+//  PlayViewController.m
 //  DZproject
 //
-//  Created by lianggq on 13-11-11.
+//  Created by lianggq on 13-11-12.
 //  Copyright (c) 2013年 lianggq. All rights reserved.
 //
 
-#import "DZViewController.h"
+#import "PlayViewController.h"
 
-@interface DZViewController ()
+@interface PlayViewController ()
 
 @end
 
-@implementation DZViewController
-@synthesize myWebView;
+@implementation PlayViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        
         // Custom initialization
     }
     return self;
@@ -29,9 +27,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    self.navigationItem.title =@"大众点评首页";
-    NSURL *url = [NSURL URLWithString:@"http://www.dianping.com/"];
-    [self.myWebView loadRequest:[NSURLRequest requestWithURL:url]];
 }
 
 - (void)didReceiveMemoryWarning

@@ -10,4 +10,9 @@
 
 @interface RootViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIImageView *eatImg;
+
+@property (strong, nonatomic) IBOutlet UITapGestureRecognizer *eatGuest;
+@property (strong, nonatomic) IBOutlet UIImageView *urlImg;
+
 @end

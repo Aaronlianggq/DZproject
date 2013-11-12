@@ -16,13 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lkp-7R-lD6">
-                                <rect key="frame" x="115" y="258" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ueS-JH-NbU">
                                 <rect key="frame" x="0.0" y="519" width="320" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -32,14 +25,96 @@
                                     <tabBarItem systemItem="more" id="hJo-g3-S1Y"/>
                                 </items>
                             </tabBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fashion.png" translatesAutoresizingMaskIntoConstraints="NO" id="7eS-SL-CTO">
+                                <rect key="frame" x="-1" y="64" width="321" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eat.png" translatesAutoresizingMaskIntoConstraints="NO" id="vbS-j1-BLg">
+                                <rect key="frame" x="51" y="273" width="57" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="z9h-ZZ-4OG" appends="YES" id="kYP-Q9-lIu"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IBz-FT-I9q">
+                                <rect key="frame" x="204" y="273" width="57" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" backgroundImage="play.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYW-f8-CIS">
+                                <rect key="frame" x="131" y="368" width="57" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" backgroundImage="buy.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WTX-IY-qf9">
+                                <rect key="frame" x="20" y="427" width="266" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="i1W-UD-VU3"/>
+                    <connections>
+                        <outlet property="eatGuest" destination="z9h-ZZ-4OG" id="lar-c9-GEC"/>
+                        <outlet property="eatImg" destination="vbS-j1-BLg" id="LgP-gh-Xyc"/>
+                        <outlet property="urlImg" destination="WTX-IY-qf9" id="64I-xb-NiR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GpO-4C-e8o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="z9h-ZZ-4OG">
+                    <connections>
+                        <segue destination="da4-oc-EzI" kind="push" id="18E-XY-RVM"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="607" y="-57"/>
+            <point key="canvasLocation" x="545" y="-237"/>
+        </scene>
+        <!--Buess View Controller-->
+        <scene sceneID="I30-fS-iVT">
+            <objects>
+                <tableViewController id="da4-oc-EzI" customClass="BuessViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="22" sectionFooterHeight="22" id="xuB-Wh-J5D">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="da4-oc-EzI" id="m83-Ak-eoE"/>
+                            <outlet property="delegate" destination="da4-oc-EzI" id="f8v-ZJ-P7V"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="WkF-Il-r2M"/>
+                    <connections>
+                        <outlet property="myTable" destination="xuB-Wh-J5D" id="ZwP-rQ-PPM"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qrt-La-iJh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="933" y="-351"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="X6q-Ru-V5b">
+            <objects>
+                <viewController id="QPw-XO-7Ij" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="izC-C5-U4I"/>
+                        <viewControllerLayoutGuide type="bottom" id="36v-Di-syt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jbg-6c-3Vu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KDC-rs-MKI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="933" y="340"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NeC-F4-LWa">
@@ -67,7 +142,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NeN-AU-kQg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="835" y="-682"/>
+            <point key="canvasLocation" x="489" y="-821"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="TwI-6L-FDo">
@@ -85,9 +160,15 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2VB-aY-4M2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="247" y="-35"/>
+            <point key="canvasLocation" x="97" y="-206"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="buy.png" width="61" height="55"/>
+        <image name="eat.png" width="57" height="51"/>
+        <image name="fashion.png" width="343" height="102"/>
+        <image name="play.png" width="63" height="57"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

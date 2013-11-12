@@ -15,6 +15,8 @@
 @end
 
 @implementation RootViewController
+@synthesize eatGuest,eatImg;
+@synthesize urlImg;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -32,6 +34,16 @@
     self.navigationItem.title = @"大众品食";
     //导航栏右侧，Flat框架按钮
     [self.navigationItem setRightBarButtonItem:[PBFlatBarButtonItems moreBarButtonItemWithTarget:self selector:@selector(showMenu:)]];
+    //设置图片可触摸
+    eatImg.userInteractionEnabled =YES;
+    [eatGuest setNumberOfTapsRequired:1];
+    [eatGuest setNumberOfTouchesRequired:1];
+    
+    UIImage *img =[[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://i1.dpfile.com/pc/d85d4f65e6b9b1a7075f6f2b4827f794%28278x200%29/thumb.jpg"]]];
+    
+    [self.urlImg setImage:img];
+    
+    
 }
 
 #pragma -mark 导航右边按钮定义

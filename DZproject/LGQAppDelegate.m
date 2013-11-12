@@ -11,6 +11,28 @@
 
 @implementation LGQAppDelegate
 @synthesize hostReach;
+//@synthesize appKey,appSecret,dpapi; 自定义set方法 不用同步
+
++ (LGQAppDelegate *)instance {
+	return (LGQAppDelegate *)[[UIApplication sharedApplication] delegate];
+}
+
+- (id)init {
+	self = [super init];
+    if (self) {
+        _dpapi = [[DPAPI alloc] init];
+		_appKey = [[NSUserDefaults standardUserDefaults] valueForKey:@"appkey"];
+		if (_appKey.length<1) {
+			_appKey = kDPAppKey;
+		}
+		_appSecret = [[NSUserDefaults standardUserDefaults] valueForKey:@"appsecret"];
+		if (_appSecret.length<1) {
+			_appSecret = kDPAppSecret;
+		}
+    }
+    return self;
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -25,6 +47,8 @@
     [hostReach startNotifier];
     return YES;
 }
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -66,6 +90,17 @@
         [alert show];
     }
 
+}
+
+//没同步 用set方法
+- (void)setAppKey:(NSString *)appKey {
+	_appKey = appKey;
+	[[NSUserDefaults standardUserDefaults] setValue:appKey forKey:@"appkey"];
+}
+
+- (void)setAppSecret:(NSString *)appSecret {
+	_appSecret = appSecret;
+	[[NSUserDefaults standardUserDefaults] setValue:appSecret forKey:@"appsecret"];
 }
 
 @end
