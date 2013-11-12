@@ -42,6 +42,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     //self.tableView.rowHeight =112.0;
+    self.navigationItem.title =@"品食";
     [self getDPData];
     
 }

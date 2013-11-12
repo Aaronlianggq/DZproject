@@ -52,6 +52,9 @@
                                 <state key="normal" backgroundImage="buy.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="QPw-XO-7Ij" kind="push" id="MbW-os-ihc"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WTX-IY-qf9">
                                 <rect key="frame" x="20" y="427" width="266" height="75"/>
@@ -74,7 +77,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="545" y="-237"/>
+            <point key="canvasLocation" x="489" y="-154"/>
         </scene>
         <!--Buess View Controller-->
         <scene sceneID="I30-fS-iVT">
@@ -96,7 +99,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qrt-La-iJh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="933" y="-351"/>
+            <point key="canvasLocation" x="929" y="-821"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="X6q-Ru-V5b">
@@ -111,10 +114,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="sDW-b9-BiS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KDC-rs-MKI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="933" y="340"/>
+            <point key="canvasLocation" x="929" y="801"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NeC-F4-LWa">
@@ -160,7 +164,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2VB-aY-4M2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="97" y="-206"/>
+            <point key="canvasLocation" x="104" y="-154"/>
         </scene>
     </scenes>
     <resources>
