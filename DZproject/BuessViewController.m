@@ -9,7 +9,6 @@
 #import "BuessViewController.h"
 #import "LGQAppDelegate.h"
 #import "SBJsonParser.h"
-#import "NSString+EncodingUTF8Additions.h"
 #import "CustomeCell.h"
 
 #define DPSSSHAPIURL      @"v1/business/find_businesses"  //搜索商户API
@@ -41,8 +40,10 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    //self.tableView.rowHeight =112.0;
+    
     self.navigationItem.title =@"品食";
+    self.tableView.dataSource =self;
+    self.tableView.delegate =self;
     [self getDPData];
     
 }
@@ -50,10 +51,6 @@
 -(void)loadTableData
 {
     [self.tableView reloadData];
-    self.tableView.dataSource =self;
-    self.tableView.delegate =self;
-    
-
 }
 - (void)didReceiveMemoryWarning
 {
@@ -79,8 +76,10 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    //UITableViewCell *cell = [self tableView:tableView cellForRowAtIndexPath:indexPath];
+    //return cell.frame.size.height;
     
-  return  ((CustomeCell *)[[[NSBundle mainBundle] loadNibNamed:@"CustomeCell" owner:self options:nil] lastObject]).frame.size.height;
+    return  ((CustomeCell *)[[[NSBundle mainBundle] loadNibNamed:@"CustomeCell" owner:self options:nil] lastObject]).frame.size.height;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -147,7 +146,7 @@
 	[[[LGQAppDelegate instance] dpapi] requestWithURL:url paramsString:params delegate:self];
 }
 
-#pragma -mark 协议方法
+#pragma -mark DPRequestDelegate协议方法
 - (void)request:(DPRequest *)request didFailWithError:(NSError *)error {
 	NSLog(@"error = %@",[error description]);
 }
@@ -160,8 +159,12 @@
     
     self.dataArr = (NSArray *)[_result objectForKey:@"businesses"];
    
-    if(self.dataArr){ [self loadTableData];}
-   
+    if(self.dataArr){
+        [self loadTableData];
+    }
+    else{
+        
+    }
     
 }
 /*

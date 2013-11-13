@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PlayViewController : UIViewController
+@interface PlayViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+
+@property (retain,nonatomic) NSArray * dataArr;
+
+
+@property (strong, nonatomic) IBOutlet UITableView *myTable;
 
 @end

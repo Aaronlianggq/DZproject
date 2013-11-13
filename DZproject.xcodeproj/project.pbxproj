@@ -39,6 +39,7 @@
 		E407CAD81830824F007B266A /* PBIconDrawning.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CACB1830824F007B266A /* PBIconDrawning.m */; };
 		E407CAD91830824F007B266A /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CACD1830824F007B266A /* UIImage+Additions.m */; };
 		E407CADC183083D8007B266A /* DZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CADB183083D8007B266A /* DZViewController.m */; };
+		E4218FF01833563E00374F21 /* MerchantsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4218FEF1833563E00374F21 /* MerchantsViewController.m */; };
 		E4B747281830C5A300B427D4 /* cell_album.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B747271830C5A300B427D4 /* cell_album.png */; };
 		E4B7472B1830C5ED00B427D4 /* BuessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7472A1830C5ED00B427D4 /* BuessViewController.m */; };
 		E4B747321830FE8100B427D4 /* DPAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7472E1830FE8100B427D4 /* DPAPI.m */; };
@@ -128,6 +129,9 @@
 		E407CACD1830824F007B266A /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Additions.m"; path = "../../../../框架/FlatUI-master/FlatUI/Classess/UIImage+Additions.m"; sourceTree = "<group>"; };
 		E407CADA183083D8007B266A /* DZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZViewController.h; sourceTree = "<group>"; };
 		E407CADB183083D8007B266A /* DZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZViewController.m; sourceTree = "<group>"; };
+		E4218FEE1833563E00374F21 /* MerchantsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchantsViewController.h; sourceTree = "<group>"; };
+		E4218FEF1833563E00374F21 /* MerchantsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerchantsViewController.m; sourceTree = "<group>"; };
+		E42C9ED51833A5FD009297ED /* NotifitionNames.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotifitionNames.h; sourceTree = "<group>"; };
 		E4B747271830C5A300B427D4 /* cell_album.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_album.png; sourceTree = "<group>"; };
 		E4B747291830C5ED00B427D4 /* BuessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuessViewController.h; sourceTree = "<group>"; };
 		E4B7472A1830C5ED00B427D4 /* BuessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuessViewController.m; sourceTree = "<group>"; };
@@ -310,6 +314,9 @@
 				E4E64C041832323E00F5ACBD /* CustomeCell.m */,
 				E4E64C081832548000F5ACBD /* PlayViewController.h */,
 				E4E64C091832548000F5ACBD /* PlayViewController.m */,
+				E4218FEE1833563E00374F21 /* MerchantsViewController.h */,
+				E4218FEF1833563E00374F21 /* MerchantsViewController.m */,
+				E42C9ED51833A5FD009297ED /* NotifitionNames.h */,
 			);
 			name = classes;
 			sourceTree = "<group>";
@@ -541,6 +548,7 @@
 				E4E64C051832323E00F5ACBD /* CustomeCell.m in Sources */,
 				E407CAA618308161007B266A /* RootViewController.m in Sources */,
 				E4B7472B1830C5ED00B427D4 /* BuessViewController.m in Sources */,
+				E4218FF01833563E00374F21 /* MerchantsViewController.m in Sources */,
 				E407CAD41830824F007B266A /* PBFlatRoundedImageView.m in Sources */,
 				E407CAAA183081EE007B266A /* KxMenu.m in Sources */,
 				E407CAD11830824F007B266A /* PBFlatButtonWithIcon.m in Sources */,
