@@ -112,7 +112,7 @@
         [_delegate request:self didReceiveRawData:data];
     }
 	
-    NSString *resultS = [[NSString alloc] initWithData:data  encoding:NSUTF8StringEncoding];
+    //NSString *resultS = [[NSString alloc] initWithData:data  encoding:NSUTF8StringEncoding];
     //NSLog(@"res=%@",resultS);  //想用jsonkit的 后面用了SBJsonParser
     
 	SBJsonParser *parser = [[SBJsonParser alloc] init];
