@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8CF15D2F-88B7-4CA9-B228-5E0C9A7D3751</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DZproject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>97294EE0-8F5A-4B9D-B3D0-DB2FFE0DA0B2</key>
+		<string>https://github.com/Aaronlianggq/DZproject.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DZproject.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>97294EE0-8F5A-4B9D-B3D0-DB2FFE0DA0B2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Aaronlianggq/DZproject.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>97294EE0-8F5A-4B9D-B3D0-DB2FFE0DA0B2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>97294EE0-8F5A-4B9D-B3D0-DB2FFE0DA0B2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DZproject</string>
+		</dict>
+	</array>
+</dict>
+</plist>

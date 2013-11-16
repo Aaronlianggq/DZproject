@@ -1,864 +1,972 @@
 {
     "status" : "OK",
-    "businesses" : [
+    "categories" : [
                     {
-                    "deal_count" : 1,
-                    "business_id" : 6286636,
-                    "telephone" : "010-********",
-                    "has_deal" : 1,
-                    "regions" : [
-                                 "海淀区",
-                                 "公主坟\/万寿路"
-                                 ],
-                    "product_grade" : 5,
-                    "deals" : [
-                               {
-                               "id" : "2-5086522",
-                               "url" : "http:\/\/dpurl.cn\/p\/0w5B1LMMYP",
-                               "description" : "愚掌门鱼火锅!仅售79元,价值100元代金券1张!5店通用!鱼肉鲜嫩,汤白润滑!鱼与火锅的超级组合,一定让你欲罢不能!"
-                               }
-                               ],
-                    "rating_s_img_url" : "http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_5star.png",
-                    "latitude" : 39.91023,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i1.dpfile.com\/pc\/d85d4f65e6b9b1a7075f6f2b4827f794(278x200)\/thumb.jpg",
-                    "coupon_id" : 204787,
-                    "name" : "愚掌****",
-                    "avg_rating" : 5,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/AaS3PXFDaa",
-                    "decoration_grade" : 5,
-                    "coupon_description" : "愚文化  鱼火锅  感恩季",
-                    "longitude" : 116.30116,
-                    "review_count" : 109,
-                    "distance" : -1,
-                    "branch_name" : "翠微店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/DkIicrQkGs",
-                    "avg_price" : 82,
-                    "has_coupon" : 1,
-                    "service_grade" : 5,
-                    "rating_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/32_5star.png",
-                    "photo_url" : "http:\/\/i2.dpfile.com\/pc\/d85d4f65e6b9b1a7075f6f2b4827f794(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "鱼火锅"
-                                    ]
+                    "category_name" : "美食",
+                    "subcategories" : [
+                                       {
+                                       "category_name" : "江浙菜",
+                                       "subcategories" : [
+                                                          "上海菜",
+                                                          "淮扬菜",
+                                                          "浙江菜",
+                                                          "杭帮菜",
+                                                          "南京菜",
+                                                          "苏帮菜",
+                                                          "宁波菜",
+                                                          "绍兴菜",
+                                                          "无锡菜",
+                                                          "舟山菜",
+                                                          "衢州菜",
+                                                          "温州菜",
+                                                          "苏北土菜"
+                                                          ]
+                                       },
+                                       {
+                                       "category_name" : "粤菜",
+                                       "subcategories" : [
+                                                          "潮汕菜",
+                                                          "茶餐厅",
+                                                          "客家菜",
+                                                          "湛江菜"
+                                                          ]
+                                       },
+                                       {
+                                       "category_name" : "川菜",
+                                       "subcategories" : [
+                                                          "自贡盐帮菜",
+                                                          "江湖菜",
+                                                          "酸菜鱼",
+                                                          "香锅",
+                                                          "川味小吃"
+                                                          ]
+                                       },
+                                       {
+                                       "category_name" : "湘菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "北京菜",
+                                       "subcategories" : [
+                                                          "北京家常菜",
+                                                          "官府菜",
+                                                          "烤鸭"
+                                                          ]
+                                       },
+                                       {
+                                       "category_name" : "东北菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "云贵菜",
+                                       "subcategories" : [
+                                                          "云南菜",
+                                                          "贵州菜"
+                                                          ]
+                                       },
+                                       {
+                                       "category_name" : "湖北菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "江西菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "山西菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "蒙古菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "徽菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "闽菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "鲁菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "豫菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "贵州菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "广西菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "台湾菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "冀菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "陕西菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "天津菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "青海菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "西北菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "西藏菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "新疆菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "东南亚菜",
+                                       "subcategories" : [
+                                                          "泰国菜",
+                                                          "越南菜",
+                                                          "印度菜",
+                                                          "新加坡菜"
+                                                          ]
+                                       },
+                                       {
+                                       "category_name" : "西餐",
+                                       "subcategories" : [
+                                                          "法国菜",
+                                                          "意大利菜",
+                                                          "西班牙菜",
+                                                          "俄罗斯菜",
+                                                          "中东菜",
+                                                          "西式正餐",
+                                                          "西式简餐",
+                                                          "巴西烧烤",
+                                                          "无国界料理",
+                                                          "牛排",
+                                                          "比萨"
+                                                          ]
+                                       },
+                                       {
+                                       "category_name" : "日本",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "韩国",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "火锅",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "清真菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "小吃快餐",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "农家菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "创意菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "海鲜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "素菜",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "烧烤",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "自助餐",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "面包甜点",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "酒吧",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       }
+                                       ]
                     },
                     {
-                    "deal_count" : 0,
-                    "business_id" : 4096465,
-                    "telephone" : "010-********",
-                    "has_deal" : 0,
-                    "regions" : [
-                                 "海淀区",
-                                 "公主坟\/万寿路"
-                                 ],
-                    "product_grade" : 5,
-                    "deals" : [
-                    
-                    ],
-                    "rating_s_img_url" : "http:\/\/i1.dpfile.com\/s\/i\/app\/api\/16_45star.png",
-                    "latitude" : 39.9124,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i2.dpfile.com\/2010-10-12\/5507210_b.jpg(278x200)\/thumb.jpg",
-                    "coupon_id" : 200425,
-                    "name" : "新辣****",
-                    "avg_rating" : 4.5,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/3+q15yJETy",
-                    "decoration_grade" : 5,
-                    "coupon_description" : "鲜椒罗非鱼翅抵用19.9元",
-                    "longitude" : 116.30341,
-                    "review_count" : 323,
-                    "distance" : -1,
-                    "branch_name" : "翠微凯德MALL店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/rkOFS7gFsz",
-                    "avg_price" : 83,
-                    "has_coupon" : 1,
-                    "service_grade" : 4,
-                    "rating_img_url" : "http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_45star.png",
-                    "photo_url" : "http:\/\/i1.dpfile.com\/2010-10-12\/5507210_b.jpg(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "鱼火锅"
-                                    ]
+                    "category_name" : "休闲娱乐",
+                    "subcategories" : [
+                                       {
+                                       "category_name" : "咖啡",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "茶馆",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "KTV",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "电影院",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "图书馆",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "博物馆",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "美术展览",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "演出票务",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "公园",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "景点郊游",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "足疗按摩",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "洗浴",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "游乐游艺",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "桌面游戏",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "DIY手工坊",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       }
+                                       ]
                     },
                     {
-                    "deal_count" : 1,
-                    "business_id" : 3181804,
-                    "telephone" : "010-********",
-                    "has_deal" : 1,
-                    "regions" : [
-                                 "海淀区",
-                                 "魏公村",
-                                 "双榆树"
-                                 ],
-                    "product_grade" : 5,
-                    "deals" : [
-                               {
-                               "id" : "2-5086522",
-                               "url" : "http:\/\/dpurl.cn\/p\/0w5B1LMMYP",
-                               "description" : "愚掌门鱼火锅!仅售79元,价值100元代金券1张!5店通用!鱼肉鲜嫩,汤白润滑!鱼与火锅的超级组合,一定让你欲罢不能!"
-                               }
-                               ],
-                    "rating_s_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/16_45star.png",
-                    "latitude" : 39.969936,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i1.dpfile.com\/2010-04-13\/4072489_b.jpg(278x200)\/thumb.jpg",
-                    "coupon_id" : 204787,
-                    "name" : "愚掌****",
-                    "avg_rating" : 4.5,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/AaS3PXFDaa",
-                    "decoration_grade" : 4,
-                    "coupon_description" : "愚文化  鱼火锅  感恩季",
-                    "longitude" : 116.32333,
-                    "review_count" : 453,
-                    "distance" : -1,
-                    "branch_name" : "当代商城店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/xQZEpj2-DY",
-                    "avg_price" : 86,
-                    "has_coupon" : 1,
-                    "service_grade" : 4,
-                    "rating_img_url" : "http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_45star.png",
-                    "photo_url" : "http:\/\/i3.dpfile.com\/2010-04-13\/4072489_b.jpg(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "鱼火锅"
-                                    ]
+                    "category_name" : "购物",
+                    "subcategories" : [
+                                       {
+                                       "category_name" : "综合商场",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "食品茶酒",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "服饰鞋包",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "珠宝饰品",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "花店",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "化妆品",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "运动户外",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "儿童服饰",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "玩具",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "亲子购物",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "品牌折扣店",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "家具",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "家居建材",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "书店",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "眼镜店",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "办公",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "超市",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "便利店",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "药店",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       }
+                                       ]
                     },
                     {
-                    "deal_count" : 2,
-                    "business_id" : 3991750,
-                    "telephone" : "010-********",
-                    "has_deal" : 1,
-                    "regions" : [
-                                 "西城区",
-                                 "海淀区",
-                                 "西直门\/动物园",
-                                 "魏公村"
-                                 ],
-                    "product_grade" : 5,
-                    "deals" : [
-                               {
-                               "id" : "2-238771",
-                               "url" : "http:\/\/dpurl.cn\/p\/vdViGGk7Kc",
-                               "description" : "陈记火锅!仅售9.9元,价值48元馋嘴蛙1份!肉质鲜滑细嫩,配以特制调料,麻辣鲜香,回味悠长!抵挡不住的美味诱惑!"
-                               },
-                               {
-                               "id" : "2-184717",
-                               "url" : "http:\/\/dpurl.cn\/p\/ERyCE25yX3",
-                               "description" : "陈记火锅!仅售6.9元,价值28元梭边鱼1份!精选清香菜籽油,辣而不燥,香而不腻,美味诱惑抵挡不住!"
-                               }
-                               ],
-                    "rating_s_img_url" : "http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_45star.png",
-                    "latitude" : 39.95102,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i2.dpfile.com\/pc\/2aab4ebde329bab0490f2960ee2eed04(278x200)\/thumb.jpg",
-                    "coupon_id" : 188319,
-                    "name" : "陈记**",
-                    "avg_rating" : 4.5,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/ATa+TlLykC",
-                    "decoration_grade" : 4,
-                    "coupon_description" : "庆新店开业！梭边鱼、馋嘴蛙美味大放送！",
-                    "longitude" : 116.32442,
-                    "review_count" : 496,
-                    "distance" : -1,
-                    "branch_name" : "魏公村店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/OBKwXlHJLU",
-                    "avg_price" : 58,
-                    "has_coupon" : 1,
-                    "service_grade" : 5,
-                    "rating_img_url" : "http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_45star.png",
-                    "photo_url" : "http:\/\/i1.dpfile.com\/pc\/2aab4ebde329bab0490f2960ee2eed04(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "火锅"
-                                    ]
+                    "category_name" : "丽人",
+                    "subcategories" : [
+                                       {
+                                       "category_name" : "美发",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "美容",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "SPA",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "化妆品",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "瘦身纤体",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "美甲",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "瑜伽",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "舞蹈",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "写真",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "整形",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "齿科",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       }
+                                       ]
                     },
                     {
-                    "deal_count" : 2,
-                    "business_id" : 8845270,
-                    "telephone" : "010-********",
-                    "has_deal" : 1,
-                    "regions" : [
-                                 "海淀区",
-                                 "上地",
-                                 "清河"
-                                 ],
-                    "product_grade" : 5,
-                    "deals" : [
-                               {
-                               "id" : "2-238771",
-                               "url" : "http:\/\/dpurl.cn\/p\/vdViGGk7Kc",
-                               "description" : "陈记火锅!仅售9.9元,价值48元馋嘴蛙1份!肉质鲜滑细嫩,配以特制调料,麻辣鲜香,回味悠长!抵挡不住的美味诱惑!"
-                               },
-                               {
-                               "id" : "2-184717",
-                               "url" : "http:\/\/dpurl.cn\/p\/ERyCE25yX3",
-                               "description" : "陈记火锅!仅售6.9元,价值28元梭边鱼1份!精选清香菜籽油,辣而不燥,香而不腻,美味诱惑抵挡不住!"
-                               }
-                               ],
-                    "rating_s_img_url" : "http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_45star.png",
-                    "latitude" : 40.030792,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i2.dpfile.com\/pc\/31196bacfecd47f14df49f6ae4841581(278x200)\/thumb.jpg",
-                    "coupon_id" : 188319,
-                    "name" : "陈记**",
-                    "avg_rating" : 4.5,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/ATa+TlLykC",
-                    "decoration_grade" : 5,
-                    "coupon_description" : "庆新店开业！梭边鱼、馋嘴蛙美味大放送！",
-                    "longitude" : 116.33322,
-                    "review_count" : 127,
-                    "distance" : -1,
-                    "branch_name" : "五彩城店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/55UycZunFH",
-                    "avg_price" : 55,
-                    "has_coupon" : 1,
-                    "service_grade" : 5,
-                    "rating_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/32_45star.png",
-                    "photo_url" : "http:\/\/i3.dpfile.com\/pc\/31196bacfecd47f14df49f6ae4841581(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "火锅"
-                                    ]
+                    "category_name" : "结婚",
+                    "subcategories" : [
+                                       {
+                                       "category_name" : "婚纱摄影",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "婚宴",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "婚戒首饰",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "婚纱礼服",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "婚庆公司",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "彩妆造型",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "司仪主持",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "婚礼跟拍",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "婚车租赁",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "婚礼小商品",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "婚房装修",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       }
+                                       ]
                     },
                     {
-                    "deal_count" : 2,
-                    "business_id" : 2567752,
-                    "telephone" : "010-********",
-                    "has_deal" : 1,
-                    "regions" : [
-                                 "海淀区",
-                                 "苏州桥"
-                                 ],
-                    "product_grade" : 5,
-                    "deals" : [
-                               {
-                               "id" : "2-195806",
-                               "url" : "http:\/\/dpurl.cn\/p\/--A-hjEBEV",
-                               "description" : "陈阿婆!仅售75元,价值100元代金券1张!6店通用!深秋滋补哪里寻,还属阿婆梭边鱼,众人齐享乐融融!"
-                               },
-                               {
-                               "id" : "2-127220",
-                               "url" : "http:\/\/dpurl.cn\/p\/k3jhtNHr19",
-                               "description" : "陈阿婆!仅售299元,价值457元6-8人套餐!4店通用!绿色环保火锅,时尚连锁品牌!赶紧收起寂寞,邀人开怀欢笑吧!"
-                               }
-                               ],
-                    "rating_s_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/16_45star.png",
-                    "latitude" : 39.960987,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i3.dpfile.com\/pc\/af73beb160b73ceb910d730ef3927e32(278x200)\/thumb.jpg",
-                    "coupon_id" : 199033,
-                    "name" : "陈阿****",
-                    "avg_rating" : 4.5,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/b0hxENPHaa",
-                    "decoration_grade" : 5,
-                    "coupon_description" : "品味生活创造经典，满百抵30，多吃多抵！",
-                    "longitude" : 116.307785,
-                    "review_count" : 959,
-                    "distance" : -1,
-                    "branch_name" : "苏州桥店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/rQ1DtPy14K",
-                    "avg_price" : 59,
-                    "has_coupon" : 1,
-                    "service_grade" : 5,
-                    "rating_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/32_45star.png",
-                    "photo_url" : "http:\/\/i1.dpfile.com\/pc\/af73beb160b73ceb910d730ef3927e32(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "鱼火锅"
-                                    ]
+                    "category_name" : "亲子",
+                    "subcategories" : [
+                                       {
+                                       "category_name" : "早教中心",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "幼儿园",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "小学",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "亲子摄影",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "亲子游乐",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "亲子购物",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "孕产护理",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       }
+                                       ]
                     },
                     {
-                    "deal_count" : 2,
-                    "business_id" : 4013473,
-                    "telephone" : "010-********",
-                    "has_deal" : 1,
-                    "regions" : [
-                                 "海淀区",
-                                 "北太平庄"
-                                 ],
-                    "product_grade" : 5,
-                    "deals" : [
-                               {
-                               "id" : "2-195806",
-                               "url" : "http:\/\/dpurl.cn\/p\/--A-hjEBEV",
-                               "description" : "陈阿婆!仅售75元,价值100元代金券1张!6店通用!深秋滋补哪里寻,还属阿婆梭边鱼,众人齐享乐融融!"
-                               },
-                               {
-                               "id" : "2-127220",
-                               "url" : "http:\/\/dpurl.cn\/p\/k3jhtNHr19",
-                               "description" : "陈阿婆!仅售299元,价值457元6-8人套餐!4店通用!绿色环保火锅,时尚连锁品牌!赶紧收起寂寞,邀人开怀欢笑吧!"
-                               }
-                               ],
-                    "rating_s_img_url" : "http:\/\/i1.dpfile.com\/s\/i\/app\/api\/16_45star.png",
-                    "latitude" : 39.9792,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i1.dpfile.com\/pc\/67953a7ef5b205691b42ffd3e805b06d(278x200)\/thumb.jpg",
-                    "coupon_id" : 199033,
-                    "name" : "陈阿****",
-                    "avg_rating" : 4.5,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/b0hxENPHaa",
-                    "decoration_grade" : 5,
-                    "coupon_description" : "品味生活创造经典，满百抵30，多吃多抵！",
-                    "longitude" : 116.369125,
-                    "review_count" : 1443,
-                    "distance" : -1,
-                    "branch_name" : "牡丹园店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/qXpLiMLvLV",
-                    "avg_price" : 61,
-                    "has_coupon" : 1,
-                    "service_grade" : 4,
-                    "rating_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/32_45star.png",
-                    "photo_url" : "http:\/\/i3.dpfile.com\/pc\/67953a7ef5b205691b42ffd3e805b06d(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "鱼火锅"
-                                    ]
+                    "category_name" : "运动健身",
+                    "subcategories" : [
+                                       {
+                                       "category_name" : "游泳馆",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "羽毛球馆",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "健身中心",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "瑜伽",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "篮球场",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "足球场",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "高尔夫场",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "保龄球馆",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "乒乓球馆",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "武术场馆",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "壁球馆",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "攀岩馆",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "射箭馆",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "骑马场",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "溜冰场",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       }
+                                       ]
                     },
                     {
-                    "deal_count" : 0,
-                    "business_id" : 2514649,
-                    "telephone" : "010-********",
-                    "has_deal" : 0,
-                    "regions" : [
-                                 "海淀区",
-                                 "清河"
-                                 ],
-                    "product_grade" : 4,
-                    "deals" : [
-                    
-                    ],
-                    "rating_s_img_url" : "http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png",
-                    "latitude" : 40.035423,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i3.dpfile.com\/pc\/c2493332221b5df904110b9b20f76638(278x200)\/thumb.jpg",
-                    "coupon_id" : 200425,
-                    "name" : "新辣****",
-                    "avg_rating" : 4,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/3+q15yJETy",
-                    "decoration_grade" : 4,
-                    "coupon_description" : "鲜椒罗非鱼翅抵用19.9元",
-                    "longitude" : 116.33648,
-                    "review_count" : 377,
-                    "distance" : -1,
-                    "branch_name" : "清河橡树湾店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/0Q4IAfii0Q",
-                    "avg_price" : 87,
-                    "has_coupon" : 1,
-                    "service_grade" : 4,
-                    "rating_img_url" : "http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png",
-                    "photo_url" : "http:\/\/i2.dpfile.com\/pc\/c2493332221b5df904110b9b20f76638(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "鱼火锅"
-                                    ]
+                    "category_name" : "酒店",
+                    "subcategories" : [
+                                       {
+                                       "category_name" : "五星级酒店",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "四星级酒店",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "三星级酒店",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "经济型酒店",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "公寓式酒店",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "精品酒店",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "青年旅舍",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "度假村",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "农家院",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       }
+                                       ]
                     },
                     {
-                    "deal_count" : 0,
-                    "business_id" : 2127934,
-                    "telephone" : "010-********",
-                    "has_deal" : 0,
-                    "regions" : [
-                                 "海淀区",
-                                 "魏公村",
-                                 "双榆树"
-                                 ],
-                    "product_grade" : 4,
-                    "deals" : [
-                    
-                    ],
-                    "rating_s_img_url" : "http:\/\/i1.dpfile.com\/s\/i\/app\/api\/16_4star.png",
-                    "latitude" : 39.96844,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i3.dpfile.com\/2011-03-13\/7058456_b.jpg(278x200)\/thumb.jpg",
-                    "coupon_id" : 200425,
-                    "name" : "新辣****",
-                    "avg_rating" : 4,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/3+q15yJETy",
-                    "decoration_grade" : 4,
-                    "coupon_description" : "鲜椒罗非鱼翅抵用19.9元",
-                    "longitude" : 116.32617,
-                    "review_count" : 2255,
-                    "distance" : -1,
-                    "branch_name" : "双安店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/54wpOqIFmF",
-                    "avg_price" : 82,
-                    "has_coupon" : 1,
-                    "service_grade" : 3,
-                    "rating_img_url" : "http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png",
-                    "photo_url" : "http:\/\/i2.dpfile.com\/2011-03-13\/7058456_b.jpg(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "鱼火锅"
-                                    ]
+                    "category_name" : "汽车服务",
+                    "subcategories" : [
+                                       {
+                                       "category_name" : "4S店",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "汽车保险",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "维修保养",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "配件车饰",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "驾校",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "汽车租赁",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "停车场",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "加油站",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       }
+                                       ]
                     },
                     {
-                    "deal_count" : 0,
-                    "business_id" : 3570217,
-                    "telephone" : "010-********",
-                    "has_deal" : 0,
-                    "regions" : [
-                                 "海淀区",
-                                 "中关村"
-                                 ],
-                    "product_grade" : 5,
-                    "deals" : [
-                    
-                    ],
-                    "rating_s_img_url" : "http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png",
-                    "latitude" : 39.979446,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i3.dpfile.com\/pc\/132ebc25c1231e88df1bbf39ece735d8(278x200)\/thumb.jpg",
-                    "coupon_id" : 200425,
-                    "name" : "新辣****",
-                    "avg_rating" : 4,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/3+q15yJETy",
-                    "decoration_grade" : 4,
-                    "coupon_description" : "鲜椒罗非鱼翅抵用19.9元",
-                    "longitude" : 116.31407,
-                    "review_count" : 762,
-                    "distance" : -1,
-                    "branch_name" : "欧美汇店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/YlqG3Z7TiO",
-                    "avg_price" : 84,
-                    "has_coupon" : 1,
-                    "service_grade" : 3,
-                    "rating_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/32_4star.png",
-                    "photo_url" : "http:\/\/i2.dpfile.com\/pc\/132ebc25c1231e88df1bbf39ece735d8(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "鱼火锅"
-                                    ]
-                    },
-                    {
-                    "deal_count" : 0,
-                    "business_id" : 4202806,
-                    "telephone" : "010-********",
-                    "has_deal" : 0,
-                    "regions" : [
-                                 "海淀区",
-                                 "苏州桥"
-                                 ],
-                    "product_grade" : 4,
-                    "deals" : [
-                    
-                    ],
-                    "rating_s_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/16_4star.png",
-                    "latitude" : 39.9734,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i3.dpfile.com\/pc\/ad2dfa48941a6613ae1677596ae855e4(278x200)\/thumb.jpg",
-                    "coupon_id" : 200425,
-                    "name" : "新辣****",
-                    "avg_rating" : 4,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/3+q15yJETy",
-                    "decoration_grade" : 4,
-                    "coupon_description" : "鲜椒罗非鱼翅抵用19.9元",
-                    "longitude" : 116.29502,
-                    "review_count" : 252,
-                    "distance" : -1,
-                    "branch_name" : "华联万柳店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/eWbuBsc5X0",
-                    "avg_price" : 86,
-                    "has_coupon" : 1,
-                    "service_grade" : 4,
-                    "rating_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/32_4star.png",
-                    "photo_url" : "http:\/\/i2.dpfile.com\/pc\/ad2dfa48941a6613ae1677596ae855e4(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "鱼火锅"
-                                    ]
-                    },
-                    {
-                    "deal_count" : 0,
-                    "business_id" : 4221087,
-                    "telephone" : "010-********",
-                    "has_deal" : 0,
-                    "regions" : [
-                                 "海淀区",
-                                 "上地"
-                                 ],
-                    "product_grade" : 5,
-                    "deals" : [
-                    
-                    ],
-                    "rating_s_img_url" : "http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png",
-                    "latitude" : 40.02753,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i3.dpfile.com\/pc\/79d91e1c128a570184ec5c4657ad79ea(278x200)\/thumb.jpg",
-                    "coupon_id" : 200425,
-                    "name" : "新辣****",
-                    "avg_rating" : 4,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/3+q15yJETy",
-                    "decoration_grade" : 5,
-                    "coupon_description" : "鲜椒罗非鱼翅抵用19.9元",
-                    "longitude" : 116.311714,
-                    "review_count" : 292,
-                    "distance" : -1,
-                    "branch_name" : "上地华联店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/toM4V017us",
-                    "avg_price" : 82,
-                    "has_coupon" : 1,
-                    "service_grade" : 4,
-                    "rating_img_url" : "http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png",
-                    "photo_url" : "http:\/\/i1.dpfile.com\/pc\/79d91e1c128a570184ec5c4657ad79ea(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "鱼火锅"
-                                    ]
-                    },
-                    {
-                    "deal_count" : 0,
-                    "business_id" : 6855400,
-                    "telephone" : "010-********",
-                    "has_deal" : 0,
-                    "regions" : [
-                                 "海淀区",
-                                 "苏州桥",
-                                 "远大路"
-                                 ],
-                    "product_grade" : 5,
-                    "deals" : [
-                    
-                    ],
-                    "rating_s_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/16_4star.png",
-                    "latitude" : 39.959133,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i2.dpfile.com\/pc\/a626cbbcbb956f737d5a886942629c87(278x200)\/thumb.jpg",
-                    "coupon_id" : 200425,
-                    "name" : "新辣****",
-                    "avg_rating" : 4,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/3+q15yJETy",
-                    "decoration_grade" : 4,
-                    "coupon_description" : "鲜椒罗非鱼翅抵用19.9元",
-                    "longitude" : 116.28976,
-                    "review_count" : 98,
-                    "distance" : -1,
-                    "branch_name" : "世纪金源店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/nko7KCw75k",
-                    "avg_price" : 84,
-                    "has_coupon" : 1,
-                    "service_grade" : 4,
-                    "rating_img_url" : "http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png",
-                    "photo_url" : "http:\/\/i1.dpfile.com\/pc\/a626cbbcbb956f737d5a886942629c87(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "鱼火锅"
-                                    ]
-                    },
-                    {
-                    "deal_count" : 1,
-                    "business_id" : 10661258,
-                    "telephone" : "010-********",
-                    "has_deal" : 1,
-                    "regions" : [
-                                 "海淀区",
-                                 "魏公村",
-                                 "双榆树"
-                                 ],
-                    "product_grade" : 4,
-                    "deals" : [
-                               {
-                               "id" : "2-5026392",
-                               "url" : "http:\/\/dpurl.cn\/p\/NpRG3L44UN",
-                               "description" : "渝老汉火锅串串香!仅售89元,价值118元2人餐!荤素混搭一锅香!香气扑鼻,回味悠长!"
-                               }
-                               ],
-                    "rating_s_img_url" : "http:\/\/i1.dpfile.com\/s\/i\/app\/api\/16_4star.png",
-                    "latitude" : 39.96851,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i2.dpfile.com\/pc\/160fcc4103db8219ace4f8e7ee5e258d(278x200)\/thumb.jpg",
-                    "coupon_id" : 204868,
-                    "name" : "渝老******",
-                    "avg_rating" : 4,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/2lRsvmLoRW",
-                    "decoration_grade" : 3,
-                    "coupon_description" : "满100元立减20元",
-                    "longitude" : 116.32439,
-                    "review_count" : 131,
-                    "distance" : -1,
-                    "branch_name" : "",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/r3robsyMz2",
-                    "avg_price" : 43,
-                    "has_coupon" : 1,
-                    "service_grade" : 4,
-                    "rating_img_url" : "http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png",
-                    "photo_url" : "http:\/\/i1.dpfile.com\/pc\/160fcc4103db8219ace4f8e7ee5e258d(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "重庆火锅"
-                                    ]
-                    },
-                    {
-                    "deal_count" : 1,
-                    "business_id" : 8698052,
-                    "telephone" : "010-********",
-                    "has_deal" : 1,
-                    "regions" : [
-                                 "海淀区",
-                                 "上地"
-                                 ],
-                    "product_grade" : 4,
-                    "deals" : [
-                               {
-                               "id" : "2-5086522",
-                               "url" : "http:\/\/dpurl.cn\/p\/0w5B1LMMYP",
-                               "description" : "愚掌门鱼火锅!仅售79元,价值100元代金券1张!5店通用!鱼肉鲜嫩,汤白润滑!鱼与火锅的超级组合,一定让你欲罢不能!"
-                               }
-                               ],
-                    "rating_s_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/16_4star.png",
-                    "latitude" : 40.03415,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i1.dpfile.com\/pc\/97481230f31f538d0fda58f149bf6599(278x200)\/thumb.jpg",
-                    "coupon_id" : 204787,
-                    "name" : "愚掌****",
-                    "avg_rating" : 4,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/AaS3PXFDaa",
-                    "decoration_grade" : 4,
-                    "coupon_description" : "愚文化  鱼火锅  感恩季",
-                    "longitude" : 116.29409,
-                    "review_count" : 47,
-                    "distance" : -1,
-                    "branch_name" : "上地店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/HRabDJbZoq",
-                    "avg_price" : 82,
-                    "has_coupon" : 1,
-                    "service_grade" : 4,
-                    "rating_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/32_4star.png",
-                    "photo_url" : "http:\/\/i3.dpfile.com\/pc\/97481230f31f538d0fda58f149bf6599(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "鱼火锅"
-                                    ]
-                    },
-                    {
-                    "deal_count" : 2,
-                    "business_id" : 1940419,
-                    "telephone" : "010-********",
-                    "has_deal" : 1,
-                    "regions" : [
-                                 "海淀区",
-                                 "西直门\/动物园",
-                                 "北太平庄"
-                                 ],
-                    "product_grade" : 4,
-                    "deals" : [
-                               {
-                               "id" : "2-5120071",
-                               "url" : "http:\/\/dpurl.cn\/p\/EhzfGvrjbT",
-                               "description" : "小肥羊!仅售79元,最高价值131元双人套餐!无需预约,节假日通!精选食材,秘制鲜香汤底,鲜美汇一处!享美味,草原情!"
-                               },
-                               {
-                               "id" : "2-5124038",
-                               "url" : "http:\/\/dpurl.cn\/p\/KpzlI6AkXQ",
-                               "description" : "小肥羊!仅售69元,最高价值128元羊蝎子双人套餐!无需预约,节假日通用!秋冬滋补羊蝎子火锅上市,亲朋友人围坐其乐融融!"
-                               }
-                               ],
-                    "rating_s_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/16_4star.png",
-                    "latitude" : 39.95141,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i1.dpfile.com\/2011-04-19\/7530110_b.jpg(278x200)\/thumb.jpg",
-                    "coupon_id" : 205464,
-                    "name" : "小肥*",
-                    "avg_rating" : 4,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/EyPUfUhb6I",
-                    "decoration_grade" : 4,
-                    "coupon_description" : "冬风起兮涮肥羊",
-                    "longitude" : 116.3583,
-                    "review_count" : 888,
-                    "distance" : -1,
-                    "branch_name" : "今典花园店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/URQZrv51zt",
-                    "avg_price" : 72,
-                    "has_coupon" : 1,
-                    "service_grade" : 3,
-                    "rating_img_url" : "http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png",
-                    "photo_url" : "http:\/\/i3.dpfile.com\/2011-04-19\/7530110_b.jpg(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "火锅"
-                                    ]
-                    },
-                    {
-                    "deal_count" : 2,
-                    "business_id" : 2940556,
-                    "telephone" : "010-********",
-                    "has_deal" : 1,
-                    "regions" : [
-                                 "海淀区",
-                                 "上地"
-                                 ],
-                    "product_grade" : 4,
-                    "deals" : [
-                               {
-                               "id" : "2-5120071",
-                               "url" : "http:\/\/dpurl.cn\/p\/EhzfGvrjbT",
-                               "description" : "小肥羊!仅售79元,最高价值131元双人套餐!无需预约,节假日通!精选食材,秘制鲜香汤底,鲜美汇一处!享美味,草原情!"
-                               },
-                               {
-                               "id" : "2-5124038",
-                               "url" : "http:\/\/dpurl.cn\/p\/KpzlI6AkXQ",
-                               "description" : "小肥羊!仅售69元,最高价值128元羊蝎子双人套餐!无需预约,节假日通用!秋冬滋补羊蝎子火锅上市,亲朋友人围坐其乐融融!"
-                               }
-                               ],
-                    "rating_s_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/16_4star.png",
-                    "latitude" : 40.028534,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i2.dpfile.com\/2011-04-20\/7540284_b.jpg(278x200)\/thumb.jpg",
-                    "coupon_id" : 205464,
-                    "name" : "小肥*",
-                    "avg_rating" : 4,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/EyPUfUhb6I",
-                    "decoration_grade" : 4,
-                    "coupon_description" : "冬风起兮涮肥羊",
-                    "longitude" : 116.311646,
-                    "review_count" : 551,
-                    "distance" : -1,
-                    "branch_name" : "上地华联店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/Vkj7w6WzGc",
-                    "avg_price" : 67,
-                    "has_coupon" : 1,
-                    "service_grade" : 3,
-                    "rating_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/32_4star.png",
-                    "photo_url" : "http:\/\/i3.dpfile.com\/2011-04-20\/7540284_b.jpg(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "火锅"
-                                    ]
-                    },
-                    {
-                    "deal_count" : 2,
-                    "business_id" : 4024846,
-                    "telephone" : "010-********",
-                    "has_deal" : 1,
-                    "regions" : [
-                                 "海淀区",
-                                 "中关村",
-                                 "双榆树"
-                                 ],
-                    "product_grade" : 5,
-                    "deals" : [
-                               {
-                               "id" : "2-5120071",
-                               "url" : "http:\/\/dpurl.cn\/p\/EhzfGvrjbT",
-                               "description" : "小肥羊!仅售79元,最高价值131元双人套餐!无需预约,节假日通!精选食材,秘制鲜香汤底,鲜美汇一处!享美味,草原情!"
-                               },
-                               {
-                               "id" : "2-5124038",
-                               "url" : "http:\/\/dpurl.cn\/p\/KpzlI6AkXQ",
-                               "description" : "小肥羊!仅售69元,最高价值128元羊蝎子双人套餐!无需预约,节假日通用!秋冬滋补羊蝎子火锅上市,亲朋友人围坐其乐融融!"
-                               }
-                               ],
-                    "rating_s_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/16_4star.png",
-                    "latitude" : 39.976994,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i3.dpfile.com\/2011-04-20\/7538156_b.jpg(278x200)\/thumb.jpg",
-                    "coupon_id" : 205464,
-                    "name" : "小肥*",
-                    "avg_rating" : 4,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/EyPUfUhb6I",
-                    "decoration_grade" : 4,
-                    "coupon_description" : "冬风起兮涮肥羊",
-                    "longitude" : 116.34392,
-                    "review_count" : 859,
-                    "distance" : -1,
-                    "branch_name" : "知春路店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/b0YCOIB7QS",
-                    "avg_price" : 70,
-                    "has_coupon" : 1,
-                    "service_grade" : 3,
-                    "rating_img_url" : "http:\/\/i3.dpfile.com\/s\/i\/app\/api\/32_4star.png",
-                    "photo_url" : "http:\/\/i1.dpfile.com\/2011-04-20\/7538156_b.jpg(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "火锅"
-                                    ]
-                    },
-                    {
-                    "deal_count" : 2,
-                    "business_id" : 584518,
-                    "telephone" : "010-********",
-                    "has_deal" : 1,
-                    "regions" : [
-                                 "海淀区",
-                                 "五棵松"
-                                 ],
-                    "product_grade" : 5,
-                    "deals" : [
-                               {
-                               "id" : "2-195806",
-                               "url" : "http:\/\/dpurl.cn\/p\/--A-hjEBEV",
-                               "description" : "陈阿婆!仅售75元,价值100元代金券1张!6店通用!深秋滋补哪里寻,还属阿婆梭边鱼,众人齐享乐融融!"
-                               },
-                               {
-                               "id" : "2-127220",
-                               "url" : "http:\/\/dpurl.cn\/p\/k3jhtNHr19",
-                               "description" : "陈阿婆!仅售299元,价值457元6-8人套餐!4店通用!绿色环保火锅,时尚连锁品牌!赶紧收起寂寞,邀人开怀欢笑吧!"
-                               }
-                               ],
-                    "rating_s_img_url" : "http:\/\/i1.dpfile.com\/s\/i\/app\/api\/16_4star.png",
-                    "latitude" : 39.92023,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i1.dpfile.com\/pc\/67953a7ef5b205691b42ffd3e805b06d(278x200)\/thumb.jpg",
-                    "coupon_id" : 199033,
-                    "name" : "陈阿****",
-                    "avg_rating" : 4,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/b0hxENPHaa",
-                    "decoration_grade" : 4,
-                    "coupon_description" : "品味生活创造经典，满百抵30，多吃多抵！",
-                    "longitude" : 116.2644,
-                    "review_count" : 774,
-                    "distance" : -1,
-                    "branch_name" : "永定路店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/mvWgMZvxn8",
-                    "avg_price" : 57,
-                    "has_coupon" : 1,
-                    "service_grade" : 4,
-                    "rating_img_url" : "http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png",
-                    "photo_url" : "http:\/\/i3.dpfile.com\/pc\/67953a7ef5b205691b42ffd3e805b06d(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "鱼火锅"
-                                    ]
-                    },
-                    {
-                    "deal_count" : 0,
-                    "business_id" : 9073046,
-                    "telephone" : "010-********",
-                    "has_deal" : 0,
-                    "regions" : [
-                                 "海淀区",
-                                 "颐和园"
-                                 ],
-                    "product_grade" : 4,
-                    "deals" : [
-                    
-                    ],
-                    "rating_s_img_url" : "http:\/\/i1.dpfile.com\/s\/i\/app\/api\/16_35star.png",
-                    "latitude" : 40.0187,
-                    "city" : "北京",
-                    "s_photo_url" : "http:\/\/i2.dpfile.com\/pc\/12e5316231fa71d98f70f09ae607964d(278x200)\/thumb.jpg",
-                    "coupon_id" : 200425,
-                    "name" : "新辣****",
-                    "avg_rating" : 3.5,
-                    "coupon_url" : "http:\/\/dpurl.cn\/p\/3+q15yJETy",
-                    "decoration_grade" : 3,
-                    "coupon_description" : "鲜椒罗非鱼翅抵用19.9元",
-                    "longitude" : 116.27125,
-                    "review_count" : 37,
-                    "distance" : -1,
-                    "branch_name" : "肖家河华联店",
-                    "business_url" : "http:\/\/dpurl.cn\/p\/Uho5L3fjXb",
-                    "avg_price" : 87,
-                    "has_coupon" : 1,
-                    "service_grade" : 3,
-                    "rating_img_url" : "http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_35star.png",
-                    "photo_url" : "http:\/\/i1.dpfile.com\/pc\/12e5316231fa71d98f70f09ae607964d(700x700)\/thumb.jpg",
-                    "address" : "**区*路*弄*号(测试数据，用于开发测试，开发完成后请申请正式数据)",
-                    "categories" : [
-                                    "鱼火锅"
-                                    ]
+                    "category_name" : "生活服务",
+                    "subcategories" : [
+                                       {
+                                       "category_name" : "医院",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "干洗店",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "家政",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "银行",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "学校",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "小区",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "商务楼",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "旅行社",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "培训",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "宠物医院",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "齿科",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       },
+                                       {
+                                       "category_name" : "快照冲印",
+                                       "subcategories" : [
+                                       
+                                       ]
+                                       }
+                                       ]
                     }
-                    ],
-    "total_count" : 24,
-    "count" : 20
+                    ]
 }
