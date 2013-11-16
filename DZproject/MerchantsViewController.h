@@ -29,6 +29,7 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *merchanName;
 
+- (IBAction)merchantDetail:(id)sender;
 
 
 @end

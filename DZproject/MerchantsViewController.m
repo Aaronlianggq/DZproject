@@ -9,6 +9,7 @@
 #import "MerchantsViewController.h"
 #import "NotifitionNames.h"
 #import "LGQAppDelegate.h"
+#import "MapViewController.h"
 
 #define DPMERCHANRUL       @"v1/review/get_recent_reviews" //点评api
 #define DPMERCHPARAMS      @"&platform=2&format=json"
@@ -18,8 +19,8 @@
 @end
 
 @implementation MerchantsViewController{
-    float latitude;  //维度坐标
-    float longitude; //经度坐标
+    double latitude;  //维度坐标
+    double longitude; //经度坐标
     long   merchantID; //商户ID
 }
 @synthesize buesData,reviewArr;
@@ -47,7 +48,7 @@
     [self loadData];
     reViewTable.dataSource =self;
     reViewTable.delegate =self;
-    [self getDPData];
+    if(merchantID){[self getDPData];};
 }
 
 #pragma -mark 加载数据
@@ -87,10 +88,10 @@
         //NSUInteger reviews =[(NSNumber *)[buesData objectForKey:@"review_count" ] unsignedIntegerValue]  ;
     
         //定位坐标
-        latitude =[(NSNumber *)[buesData objectForKey:@"latitude"] floatValue];
+        latitude =[(NSNumber *)[buesData objectForKey:@"latitude"] doubleValue];
         longitude =[(NSNumber *)[buesData objectForKey:@"longitude"] floatValue];
         //商户ID
-        merchantID =[(NSNumber *)[buesData objectForKey:@"business_id"] longValue];
+        merchantID =[(NSNumber *)[buesData objectForKey:@"business_id"] doubleValue];
         
 
      }
@@ -151,7 +152,8 @@
     [textView resignFirstResponder];
     [textView.layer setCornerRadius:10.0];//圆角
     [textView setFont:[UIFont systemFontOfSize:12.0]];
-    [textView.layer setBorderColor:[[UIColor grayColor]CGColor]];//边框颜色
+    [textView.layer setBorderWidth:1.0];//边框大小颜色
+    [textView.layer setBorderColor:[[UIColor grayColor]CGColor]];
     textView.text =[rowDic objectForKey:@"text_excerpt"];
     return cell;
 }
@@ -182,5 +184,24 @@
     }
         
 }
+
+- (IBAction)merchantDetail:(id)sender {
+    
+   //使用modal跳转关闭当前界面 目的返回之前界面
+   // [self dismissViewControllerAnimated:YES completion:^{}];
+    
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([[segue identifier] isEqualToString:@"toMerchanMap"]){
+        //跳转地图
+        MapViewController *selfMap =(MapViewController *) [segue destinationViewController];
+        
+        [selfMap setDataDic:[self buesData] ];
+        
+    }
+}
+
 
 @end

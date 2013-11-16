@@ -126,9 +126,6 @@
 #pragma mark - 实现表格的操作事件代理
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //消息发送传递 ios7貌似有问题
-    //[[NSNotificationCenter defaultCenter ] postNotificationName:NOTIFICONTROLSTOMERCHANS object:tempDic];
-    
     //Contrller 对Controller的跳转
     //[self presentModalViewController:merchant animated:YES];
     [self performSegueWithIdentifier:@"playToBusess" sender:self];
