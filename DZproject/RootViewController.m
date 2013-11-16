@@ -33,7 +33,7 @@
 	// Do any additional setup after loading the view.
     self.navigationItem.title = @"大众品食";
     //导航栏右侧，Flat框架按钮
-    [self.navigationItem setRightBarButtonItem:[PBFlatBarButtonItems moreBarButtonItemWithTarget:self selector:@selector(showMenu:)]];
+    [self.navigationItem setLeftBarButtonItem:[PBFlatBarButtonItems moreBarButtonItemWithTarget:self selector:@selector(showMenu:)]];
     //设置图片可触摸
     eatImg.userInteractionEnabled =YES;
     [eatGuest setNumberOfTapsRequired:1];
@@ -104,7 +104,7 @@
 
 -(void)gotoSearchPage:(UIButton *)button
 {
-    
+   
 }
 
 - (void)didReceiveMemoryWarning

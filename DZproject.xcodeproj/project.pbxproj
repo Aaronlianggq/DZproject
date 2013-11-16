@@ -40,6 +40,9 @@
 		E407CAD91830824F007B266A /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CACD1830824F007B266A /* UIImage+Additions.m */; };
 		E407CADC183083D8007B266A /* DZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CADB183083D8007B266A /* DZViewController.m */; };
 		E4218FF01833563E00374F21 /* MerchantsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4218FEF1833563E00374F21 /* MerchantsViewController.m */; };
+		E426EAEA1834B3DA0022E39F /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E426EAE91834B3DA0022E39F /* MyViewController.m */; };
+		E426EB061834FBA50022E39F /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E426EB051834FBA50022E39F /* MapViewController.m */; };
+		E42C9F1A1833E1FA009297ED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42C9F191833E1FA009297ED /* MapKit.framework */; };
 		E4B747281830C5A300B427D4 /* cell_album.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B747271830C5A300B427D4 /* cell_album.png */; };
 		E4B7472B1830C5ED00B427D4 /* BuessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7472A1830C5ED00B427D4 /* BuessViewController.m */; };
 		E4B747321830FE8100B427D4 /* DPAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7472E1830FE8100B427D4 /* DPAPI.m */; };
@@ -64,6 +67,9 @@
 		E4E64C021832303600F5ACBD /* CustomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4E64C011832303600F5ACBD /* CustomeCell.xib */; };
 		E4E64C051832323E00F5ACBD /* CustomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E64C041832323E00F5ACBD /* CustomeCell.m */; };
 		E4E64C0A1832548000F5ACBD /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E64C091832548000F5ACBD /* PlayViewController.m */; };
+		E4EBD38318373AE6009A0903 /* MapLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EBD38218373AE6009A0903 /* MapLocation.m */; };
+		E4EBD3D91837BB0B009A0903 /* UITableContract@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EBD3D71837BB0B009A0903 /* UITableContract@2x.png */; };
+		E4EBD3DA1837BB0B009A0903 /* UITableExpand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EBD3D81837BB0B009A0903 /* UITableExpand@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,7 +137,12 @@
 		E407CADB183083D8007B266A /* DZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZViewController.m; sourceTree = "<group>"; };
 		E4218FEE1833563E00374F21 /* MerchantsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchantsViewController.h; sourceTree = "<group>"; };
 		E4218FEF1833563E00374F21 /* MerchantsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerchantsViewController.m; sourceTree = "<group>"; };
+		E426EAE81834B3DA0022E39F /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		E426EAE91834B3DA0022E39F /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		E426EB041834FBA50022E39F /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		E426EB051834FBA50022E39F /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		E42C9ED51833A5FD009297ED /* NotifitionNames.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotifitionNames.h; sourceTree = "<group>"; };
+		E42C9F191833E1FA009297ED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		E4B747271830C5A300B427D4 /* cell_album.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_album.png; sourceTree = "<group>"; };
 		E4B747291830C5ED00B427D4 /* BuessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuessViewController.h; sourceTree = "<group>"; };
 		E4B7472A1830C5ED00B427D4 /* BuessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuessViewController.m; sourceTree = "<group>"; };
@@ -177,6 +188,10 @@
 		E4E64C041832323E00F5ACBD /* CustomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeCell.m; sourceTree = "<group>"; };
 		E4E64C081832548000F5ACBD /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
 		E4E64C091832548000F5ACBD /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		E4EBD38118373AE6009A0903 /* MapLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocation.h; sourceTree = "<group>"; };
+		E4EBD38218373AE6009A0903 /* MapLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocation.m; sourceTree = "<group>"; };
+		E4EBD3D71837BB0B009A0903 /* UITableContract@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UITableContract@2x.png"; sourceTree = "<group>"; };
+		E4EBD3D81837BB0B009A0903 /* UITableExpand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UITableExpand@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42C9F1A1833E1FA009297ED /* MapKit.framework in Frameworks */,
 				E4E64BFC183225D800F5ACBD /* SystemConfiguration.framework in Frameworks */,
 				E407CA7418308103007B266A /* CoreGraphics.framework in Frameworks */,
 				E407CA7618308103007B266A /* UIKit.framework in Frameworks */,
@@ -227,6 +243,7 @@
 		E407CA7018308103007B266A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E42C9F191833E1FA009297ED /* MapKit.framework */,
 				E4E64BFB183225D800F5ACBD /* SystemConfiguration.framework */,
 				E407CA7118308103007B266A /* Foundation.framework */,
 				E407CA7318308103007B266A /* CoreGraphics.framework */,
@@ -284,6 +301,8 @@
 		E407CAA01830810C007B266A /* imgages */ = {
 			isa = PBXGroup;
 			children = (
+				E4EBD3D71837BB0B009A0903 /* UITableContract@2x.png */,
+				E4EBD3D81837BB0B009A0903 /* UITableExpand@2x.png */,
 				E4B7475B18311F5A00B427D4 /* buy.png */,
 				E4B747271830C5A300B427D4 /* cell_album.png */,
 				E4DFB8111830B73B009F77CA /* fashion.png */,
@@ -298,6 +317,8 @@
 		E407CAA11830811A007B266A /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				E4EBD38518373B30009A0903 /* customViews */,
+				E4EBD38418373AF7009A0903 /* mapViews */,
 				E407CA8018308103007B266A /* LGQAppDelegate.h */,
 				E407CA8118308103007B266A /* LGQAppDelegate.m */,
 				E407CAA218308138007B266A /* MainStoryboard.storyboard */,
@@ -309,14 +330,13 @@
 				E4B7472A1830C5ED00B427D4 /* BuessViewController.m */,
 				E4B7475D18312A3900B427D4 /* NSString+EncodingUTF8Additions.h */,
 				E4B7475E18312A3900B427D4 /* NSString+EncodingUTF8Additions.m */,
-				E4E64C011832303600F5ACBD /* CustomeCell.xib */,
-				E4E64C031832323E00F5ACBD /* CustomeCell.h */,
-				E4E64C041832323E00F5ACBD /* CustomeCell.m */,
 				E4E64C081832548000F5ACBD /* PlayViewController.h */,
 				E4E64C091832548000F5ACBD /* PlayViewController.m */,
 				E4218FEE1833563E00374F21 /* MerchantsViewController.h */,
 				E4218FEF1833563E00374F21 /* MerchantsViewController.m */,
 				E42C9ED51833A5FD009297ED /* NotifitionNames.h */,
+				E426EAE81834B3DA0022E39F /* MyViewController.h */,
+				E426EAE91834B3DA0022E39F /* MyViewController.m */,
 			);
 			name = classes;
 			sourceTree = "<group>";
@@ -414,6 +434,27 @@
 			name = SBjson;
 			sourceTree = "<group>";
 		};
+		E4EBD38418373AF7009A0903 /* mapViews */ = {
+			isa = PBXGroup;
+			children = (
+				E426EB041834FBA50022E39F /* MapViewController.h */,
+				E426EB051834FBA50022E39F /* MapViewController.m */,
+				E4EBD38118373AE6009A0903 /* MapLocation.h */,
+				E4EBD38218373AE6009A0903 /* MapLocation.m */,
+			);
+			name = mapViews;
+			sourceTree = "<group>";
+		};
+		E4EBD38518373B30009A0903 /* customViews */ = {
+			isa = PBXGroup;
+			children = (
+				E4E64C011832303600F5ACBD /* CustomeCell.xib */,
+				E4E64C031832323E00F5ACBD /* CustomeCell.h */,
+				E4E64C041832323E00F5ACBD /* CustomeCell.m */,
+			);
+			name = customViews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -493,10 +534,12 @@
 				E4E64C021832303600F5ACBD /* CustomeCell.xib in Resources */,
 				E407CAA318308138007B266A /* MainStoryboard.storyboard in Resources */,
 				E4B747281830C5A300B427D4 /* cell_album.png in Resources */,
+				E4EBD3D91837BB0B009A0903 /* UITableContract@2x.png in Resources */,
 				E4DFB8141830B73B009F77CA /* play.png in Resources */,
 				E4DFB8131830B73B009F77CA /* fashion.png in Resources */,
 				E4B7475C18311F5A00B427D4 /* buy.png in Resources */,
 				E407CA7C18308103007B266A /* InfoPlist.strings in Resources */,
+				E4EBD3DA1837BB0B009A0903 /* UITableExpand@2x.png in Resources */,
 				E407CAAF18308202007B266A /* eat.png in Resources */,
 				E407CAAE18308202007B266A /* more.png in Resources */,
 				E407CA8418308103007B266A /* Images.xcassets in Resources */,
@@ -537,6 +580,7 @@
 				E407CA8218308103007B266A /* LGQAppDelegate.m in Sources */,
 				E4E64C0A1832548000F5ACBD /* PlayViewController.m in Sources */,
 				E4B7475F18312A3900B427D4 /* NSString+EncodingUTF8Additions.m in Sources */,
+				E426EAEA1834B3DA0022E39F /* MyViewController.m in Sources */,
 				E4B747581830FEE100B427D4 /* SBJsonUTF8Stream.m in Sources */,
 				E4B747571830FEE100B427D4 /* SBJsonTokeniser.m in Sources */,
 				E4B7474E1830FEE100B427D4 /* NSObject+SBJson.m in Sources */,
@@ -549,8 +593,10 @@
 				E407CAA618308161007B266A /* RootViewController.m in Sources */,
 				E4B7472B1830C5ED00B427D4 /* BuessViewController.m in Sources */,
 				E4218FF01833563E00374F21 /* MerchantsViewController.m in Sources */,
+				E4EBD38318373AE6009A0903 /* MapLocation.m in Sources */,
 				E407CAD41830824F007B266A /* PBFlatRoundedImageView.m in Sources */,
 				E407CAAA183081EE007B266A /* KxMenu.m in Sources */,
+				E426EB061834FBA50022E39F /* MapViewController.m in Sources */,
 				E407CAD11830824F007B266A /* PBFlatButtonWithIcon.m in Sources */,
 				E407CAD01830824F007B266A /* PBFlatButton.m in Sources */,
 				E4B747331830FE8100B427D4 /* DPRequest.m in Sources */,
