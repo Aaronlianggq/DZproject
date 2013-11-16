@@ -22,7 +22,6 @@
 		E407CAA318308138007B266A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E407CAA218308138007B266A /* MainStoryboard.storyboard */; };
 		E407CAA618308161007B266A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CAA518308161007B266A /* RootViewController.m */; };
 		E407CAAA183081EE007B266A /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CAA9183081EE007B266A /* KxMenu.m */; };
-		E407CAAE18308202007B266A /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = E407CAAB18308202007B266A /* more.png */; };
 		E407CAAF18308202007B266A /* eat.png in Resources */ = {isa = PBXBuildFile; fileRef = E407CAAC18308202007B266A /* eat.png */; };
 		E407CAB018308202007B266A /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = E407CAAD18308202007B266A /* love.png */; };
 		E407CAB51830823D007B266A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CAB41830823D007B266A /* Reachability.m */; };
@@ -43,6 +42,7 @@
 		E426EAEA1834B3DA0022E39F /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E426EAE91834B3DA0022E39F /* MyViewController.m */; };
 		E426EB061834FBA50022E39F /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E426EB051834FBA50022E39F /* MapViewController.m */; };
 		E42C9F1A1833E1FA009297ED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42C9F191833E1FA009297ED /* MapKit.framework */; };
+		E4A4A81C1837D11200D85CCE /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A4A81B1837D11200D85CCE /* more.png */; };
 		E4B747281830C5A300B427D4 /* cell_album.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B747271830C5A300B427D4 /* cell_album.png */; };
 		E4B7472B1830C5ED00B427D4 /* BuessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7472A1830C5ED00B427D4 /* BuessViewController.m */; };
 		E4B747321830FE8100B427D4 /* DPAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7472E1830FE8100B427D4 /* DPAPI.m */; };
@@ -104,7 +104,6 @@
 		E407CAA518308161007B266A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		E407CAA8183081EE007B266A /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
 		E407CAA9183081EE007B266A /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
-		E407CAAB18308202007B266A /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
 		E407CAAC18308202007B266A /* eat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eat.png; sourceTree = "<group>"; };
 		E407CAAD18308202007B266A /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
 		E407CAB31830823D007B266A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "../../../../../Reachability-master/Reachability.h"; sourceTree = "<group>"; };
@@ -143,6 +142,7 @@
 		E426EB051834FBA50022E39F /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		E42C9ED51833A5FD009297ED /* NotifitionNames.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotifitionNames.h; sourceTree = "<group>"; };
 		E42C9F191833E1FA009297ED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E4A4A81B1837D11200D85CCE /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
 		E4B747271830C5A300B427D4 /* cell_album.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_album.png; sourceTree = "<group>"; };
 		E4B747291830C5ED00B427D4 /* BuessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuessViewController.h; sourceTree = "<group>"; };
 		E4B7472A1830C5ED00B427D4 /* BuessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuessViewController.m; sourceTree = "<group>"; };
@@ -301,13 +301,13 @@
 		E407CAA01830810C007B266A /* imgages */ = {
 			isa = PBXGroup;
 			children = (
+				E4A4A81B1837D11200D85CCE /* more.png */,
 				E4EBD3D71837BB0B009A0903 /* UITableContract@2x.png */,
 				E4EBD3D81837BB0B009A0903 /* UITableExpand@2x.png */,
 				E4B7475B18311F5A00B427D4 /* buy.png */,
 				E4B747271830C5A300B427D4 /* cell_album.png */,
 				E4DFB8111830B73B009F77CA /* fashion.png */,
 				E4DFB8121830B73B009F77CA /* play.png */,
-				E407CAAB18308202007B266A /* more.png */,
 				E407CAAC18308202007B266A /* eat.png */,
 				E407CAAD18308202007B266A /* love.png */,
 			);
@@ -532,6 +532,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4E64C021832303600F5ACBD /* CustomeCell.xib in Resources */,
+				E4A4A81C1837D11200D85CCE /* more.png in Resources */,
 				E407CAA318308138007B266A /* MainStoryboard.storyboard in Resources */,
 				E4B747281830C5A300B427D4 /* cell_album.png in Resources */,
 				E4EBD3D91837BB0B009A0903 /* UITableContract@2x.png in Resources */,
@@ -541,7 +542,6 @@
 				E407CA7C18308103007B266A /* InfoPlist.strings in Resources */,
 				E4EBD3DA1837BB0B009A0903 /* UITableExpand@2x.png in Resources */,
 				E407CAAF18308202007B266A /* eat.png in Resources */,
-				E407CAAE18308202007B266A /* more.png in Resources */,
 				E407CA8418308103007B266A /* Images.xcassets in Resources */,
 				E407CAB018308202007B266A /* love.png in Resources */,
 			);
