@@ -24,7 +24,6 @@
 		E407CAAA183081EE007B266A /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CAA9183081EE007B266A /* KxMenu.m */; };
 		E407CAAF18308202007B266A /* eat.png in Resources */ = {isa = PBXBuildFile; fileRef = E407CAAC18308202007B266A /* eat.png */; };
 		E407CAB018308202007B266A /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = E407CAAD18308202007B266A /* love.png */; };
-		E407CAB51830823D007B266A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CAB41830823D007B266A /* Reachability.m */; };
 		E407CADC183083D8007B266A /* DZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CADB183083D8007B266A /* DZViewController.m */; };
 		E41A9B5C1837D789004B837A /* PBBarButtonIconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B451837D788004B837A /* PBBarButtonIconButton.m */; };
 		E41A9B5D1837D789004B837A /* PBFlatBarButtonItems.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B471837D789004B837A /* PBFlatBarButtonItems.m */; };
@@ -38,6 +37,7 @@
 		E41A9B651837D789004B837A /* PBFlatTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B571837D789004B837A /* PBFlatTextfield.m */; };
 		E41A9B661837D789004B837A /* PBIconDrawning.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B591837D789004B837A /* PBIconDrawning.m */; };
 		E41A9B671837D789004B837A /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B5B1837D789004B837A /* UIImage+Additions.m */; };
+		E41A9B6D1837D8A8004B837A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B6C1837D8A8004B837A /* Reachability.m */; };
 		E420C5A51837D374008781F1 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = E420C5A31837D374008781F1 /* play.png */; };
 		E420C5A61837D374008781F1 /* fashion.png in Resources */ = {isa = PBXBuildFile; fileRef = E420C5A41837D374008781F1 /* fashion.png */; };
 		E4218FF01833563E00374F21 /* MerchantsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4218FEF1833563E00374F21 /* MerchantsViewController.m */; };
@@ -106,8 +106,6 @@
 		E407CAA9183081EE007B266A /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
 		E407CAAC18308202007B266A /* eat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eat.png; sourceTree = "<group>"; };
 		E407CAAD18308202007B266A /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
-		E407CAB31830823D007B266A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "../../../../../Reachability-master/Reachability.h"; sourceTree = "<group>"; };
-		E407CAB41830823D007B266A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "../../../../../Reachability-master/Reachability.m"; sourceTree = "<group>"; };
 		E407CADA183083D8007B266A /* DZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZViewController.h; sourceTree = "<group>"; };
 		E407CADB183083D8007B266A /* DZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZViewController.m; sourceTree = "<group>"; };
 		E41A9B441837D788004B837A /* PBBarButtonIconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBBarButtonIconButton.h; sourceTree = "<group>"; };
@@ -134,6 +132,8 @@
 		E41A9B591837D789004B837A /* PBIconDrawning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBIconDrawning.m; sourceTree = "<group>"; };
 		E41A9B5A1837D789004B837A /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
 		E41A9B5B1837D789004B837A /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		E41A9B6B1837D8A8004B837A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E41A9B6C1837D8A8004B837A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		E420C5A31837D374008781F1 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		E420C5A41837D374008781F1 /* fashion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fashion.png; sourceTree = "<group>"; };
 		E4218FEE1833563E00374F21 /* MerchantsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchantsViewController.h; sourceTree = "<group>"; };
@@ -353,8 +353,8 @@
 		E407CAB118308214007B266A /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				E407CAB31830823D007B266A /* Reachability.h */,
-				E407CAB41830823D007B266A /* Reachability.m */,
+				E41A9B6B1837D8A8004B837A /* Reachability.h */,
+				E41A9B6C1837D8A8004B837A /* Reachability.m */,
 			);
 			name = Reachability;
 			sourceTree = "<group>";
@@ -596,12 +596,12 @@
 				E4218FF01833563E00374F21 /* MerchantsViewController.m in Sources */,
 				E41A9B611837D789004B837A /* PBFlatGroupedTableViewController.m in Sources */,
 				E41A9B671837D789004B837A /* UIImage+Additions.m in Sources */,
+				E41A9B6D1837D8A8004B837A /* Reachability.m in Sources */,
 				E4EBD38318373AE6009A0903 /* MapLocation.m in Sources */,
 				E407CAAA183081EE007B266A /* KxMenu.m in Sources */,
 				E426EB061834FBA50022E39F /* MapViewController.m in Sources */,
 				E4B747331830FE8100B427D4 /* DPRequest.m in Sources */,
 				E4B747551830FEE100B427D4 /* SBJsonStreamWriterAccumulator.m in Sources */,
-				E407CAB51830823D007B266A /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
