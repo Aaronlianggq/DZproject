@@ -26,6 +26,18 @@
 		E407CAB018308202007B266A /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = E407CAAD18308202007B266A /* love.png */; };
 		E407CAB51830823D007B266A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CAB41830823D007B266A /* Reachability.m */; };
 		E407CADC183083D8007B266A /* DZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CADB183083D8007B266A /* DZViewController.m */; };
+		E41A9B5C1837D789004B837A /* PBBarButtonIconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B451837D788004B837A /* PBBarButtonIconButton.m */; };
+		E41A9B5D1837D789004B837A /* PBFlatBarButtonItems.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B471837D789004B837A /* PBFlatBarButtonItems.m */; };
+		E41A9B5E1837D789004B837A /* PBFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B491837D789004B837A /* PBFlatButton.m */; };
+		E41A9B5F1837D789004B837A /* PBFlatButtonWithIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B4B1837D789004B837A /* PBFlatButtonWithIcon.m */; };
+		E41A9B601837D789004B837A /* PBFlatGroupedStyleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B4D1837D789004B837A /* PBFlatGroupedStyleCell.m */; };
+		E41A9B611837D789004B837A /* PBFlatGroupedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B4F1837D789004B837A /* PBFlatGroupedTableViewController.m */; };
+		E41A9B621837D789004B837A /* PBFlatRoundedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B511837D789004B837A /* PBFlatRoundedImageView.m */; };
+		E41A9B631837D789004B837A /* PBFlatSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B531837D789004B837A /* PBFlatSegmentedControl.m */; };
+		E41A9B641837D789004B837A /* PBFlatSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B551837D789004B837A /* PBFlatSettings.m */; };
+		E41A9B651837D789004B837A /* PBFlatTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B571837D789004B837A /* PBFlatTextfield.m */; };
+		E41A9B661837D789004B837A /* PBIconDrawning.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B591837D789004B837A /* PBIconDrawning.m */; };
+		E41A9B671837D789004B837A /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B5B1837D789004B837A /* UIImage+Additions.m */; };
 		E420C5A51837D374008781F1 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = E420C5A31837D374008781F1 /* play.png */; };
 		E420C5A61837D374008781F1 /* fashion.png in Resources */ = {isa = PBXBuildFile; fileRef = E420C5A41837D374008781F1 /* fashion.png */; };
 		E4218FF01833563E00374F21 /* MerchantsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4218FEF1833563E00374F21 /* MerchantsViewController.m */; };
@@ -98,6 +110,30 @@
 		E407CAB41830823D007B266A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "../../../../../Reachability-master/Reachability.m"; sourceTree = "<group>"; };
 		E407CADA183083D8007B266A /* DZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZViewController.h; sourceTree = "<group>"; };
 		E407CADB183083D8007B266A /* DZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZViewController.m; sourceTree = "<group>"; };
+		E41A9B441837D788004B837A /* PBBarButtonIconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBBarButtonIconButton.h; sourceTree = "<group>"; };
+		E41A9B451837D788004B837A /* PBBarButtonIconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBBarButtonIconButton.m; sourceTree = "<group>"; };
+		E41A9B461837D789004B837A /* PBFlatBarButtonItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatBarButtonItems.h; sourceTree = "<group>"; };
+		E41A9B471837D789004B837A /* PBFlatBarButtonItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatBarButtonItems.m; sourceTree = "<group>"; };
+		E41A9B481837D789004B837A /* PBFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatButton.h; sourceTree = "<group>"; };
+		E41A9B491837D789004B837A /* PBFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatButton.m; sourceTree = "<group>"; };
+		E41A9B4A1837D789004B837A /* PBFlatButtonWithIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatButtonWithIcon.h; sourceTree = "<group>"; };
+		E41A9B4B1837D789004B837A /* PBFlatButtonWithIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatButtonWithIcon.m; sourceTree = "<group>"; };
+		E41A9B4C1837D789004B837A /* PBFlatGroupedStyleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatGroupedStyleCell.h; sourceTree = "<group>"; };
+		E41A9B4D1837D789004B837A /* PBFlatGroupedStyleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatGroupedStyleCell.m; sourceTree = "<group>"; };
+		E41A9B4E1837D789004B837A /* PBFlatGroupedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatGroupedTableViewController.h; sourceTree = "<group>"; };
+		E41A9B4F1837D789004B837A /* PBFlatGroupedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatGroupedTableViewController.m; sourceTree = "<group>"; };
+		E41A9B501837D789004B837A /* PBFlatRoundedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatRoundedImageView.h; sourceTree = "<group>"; };
+		E41A9B511837D789004B837A /* PBFlatRoundedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatRoundedImageView.m; sourceTree = "<group>"; };
+		E41A9B521837D789004B837A /* PBFlatSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatSegmentedControl.h; sourceTree = "<group>"; };
+		E41A9B531837D789004B837A /* PBFlatSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatSegmentedControl.m; sourceTree = "<group>"; };
+		E41A9B541837D789004B837A /* PBFlatSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatSettings.h; sourceTree = "<group>"; };
+		E41A9B551837D789004B837A /* PBFlatSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatSettings.m; sourceTree = "<group>"; };
+		E41A9B561837D789004B837A /* PBFlatTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatTextfield.h; sourceTree = "<group>"; };
+		E41A9B571837D789004B837A /* PBFlatTextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFlatTextfield.m; sourceTree = "<group>"; };
+		E41A9B581837D789004B837A /* PBIconDrawning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBIconDrawning.h; sourceTree = "<group>"; };
+		E41A9B591837D789004B837A /* PBIconDrawning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBIconDrawning.m; sourceTree = "<group>"; };
+		E41A9B5A1837D789004B837A /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		E41A9B5B1837D789004B837A /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
 		E420C5A31837D374008781F1 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		E420C5A41837D374008781F1 /* fashion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fashion.png; sourceTree = "<group>"; };
 		E4218FEE1833563E00374F21 /* MerchantsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchantsViewController.h; sourceTree = "<group>"; };
@@ -326,6 +362,30 @@
 		E407CAB21830822D007B266A /* FlatUI */ = {
 			isa = PBXGroup;
 			children = (
+				E41A9B441837D788004B837A /* PBBarButtonIconButton.h */,
+				E41A9B451837D788004B837A /* PBBarButtonIconButton.m */,
+				E41A9B461837D789004B837A /* PBFlatBarButtonItems.h */,
+				E41A9B471837D789004B837A /* PBFlatBarButtonItems.m */,
+				E41A9B481837D789004B837A /* PBFlatButton.h */,
+				E41A9B491837D789004B837A /* PBFlatButton.m */,
+				E41A9B4A1837D789004B837A /* PBFlatButtonWithIcon.h */,
+				E41A9B4B1837D789004B837A /* PBFlatButtonWithIcon.m */,
+				E41A9B4C1837D789004B837A /* PBFlatGroupedStyleCell.h */,
+				E41A9B4D1837D789004B837A /* PBFlatGroupedStyleCell.m */,
+				E41A9B4E1837D789004B837A /* PBFlatGroupedTableViewController.h */,
+				E41A9B4F1837D789004B837A /* PBFlatGroupedTableViewController.m */,
+				E41A9B501837D789004B837A /* PBFlatRoundedImageView.h */,
+				E41A9B511837D789004B837A /* PBFlatRoundedImageView.m */,
+				E41A9B521837D789004B837A /* PBFlatSegmentedControl.h */,
+				E41A9B531837D789004B837A /* PBFlatSegmentedControl.m */,
+				E41A9B541837D789004B837A /* PBFlatSettings.h */,
+				E41A9B551837D789004B837A /* PBFlatSettings.m */,
+				E41A9B561837D789004B837A /* PBFlatTextfield.h */,
+				E41A9B571837D789004B837A /* PBFlatTextfield.m */,
+				E41A9B581837D789004B837A /* PBIconDrawning.h */,
+				E41A9B591837D789004B837A /* PBIconDrawning.m */,
+				E41A9B5A1837D789004B837A /* UIImage+Additions.h */,
+				E41A9B5B1837D789004B837A /* UIImage+Additions.m */,
 			);
 			name = FlatUI;
 			sourceTree = "<group>";
@@ -503,19 +563,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B747321830FE8100B427D4 /* DPAPI.m in Sources */,
+				E41A9B631837D789004B837A /* PBFlatSegmentedControl.m in Sources */,
+				E41A9B5D1837D789004B837A /* PBFlatBarButtonItems.m in Sources */,
 				E407CADC183083D8007B266A /* DZViewController.m in Sources */,
 				E4B747561830FEE100B427D4 /* SBJsonStreamWriterState.m in Sources */,
 				E4B747521830FEE100B427D4 /* SBJsonStreamParserAdapter.m in Sources */,
 				E407CA7E18308103007B266A /* main.m in Sources */,
+				E41A9B661837D789004B837A /* PBIconDrawning.m in Sources */,
+				E41A9B621837D789004B837A /* PBFlatRoundedImageView.m in Sources */,
+				E41A9B641837D789004B837A /* PBFlatSettings.m in Sources */,
+				E41A9B5C1837D789004B837A /* PBBarButtonIconButton.m in Sources */,
 				E4B747541830FEE100B427D4 /* SBJsonStreamWriter.m in Sources */,
 				E4B747591830FEE100B427D4 /* SBJsonWriter.m in Sources */,
 				E407CA8218308103007B266A /* LGQAppDelegate.m in Sources */,
 				E4E64C0A1832548000F5ACBD /* PlayViewController.m in Sources */,
+				E41A9B5F1837D789004B837A /* PBFlatButtonWithIcon.m in Sources */,
 				E4B7475F18312A3900B427D4 /* NSString+EncodingUTF8Additions.m in Sources */,
+				E41A9B5E1837D789004B837A /* PBFlatButton.m in Sources */,
 				E426EAEA1834B3DA0022E39F /* MyViewController.m in Sources */,
 				E4B747581830FEE100B427D4 /* SBJsonUTF8Stream.m in Sources */,
 				E4B747571830FEE100B427D4 /* SBJsonTokeniser.m in Sources */,
 				E4B7474E1830FEE100B427D4 /* NSObject+SBJson.m in Sources */,
+				E41A9B601837D789004B837A /* PBFlatGroupedStyleCell.m in Sources */,
+				E41A9B651837D789004B837A /* PBFlatTextfield.m in Sources */,
 				E4B747531830FEE100B427D4 /* SBJsonStreamParserState.m in Sources */,
 				E4B7474F1830FEE100B427D4 /* SBJsonParser.m in Sources */,
 				E4B747511830FEE100B427D4 /* SBJsonStreamParserAccumulator.m in Sources */,
@@ -524,6 +594,8 @@
 				E407CAA618308161007B266A /* RootViewController.m in Sources */,
 				E4B7472B1830C5ED00B427D4 /* BuessViewController.m in Sources */,
 				E4218FF01833563E00374F21 /* MerchantsViewController.m in Sources */,
+				E41A9B611837D789004B837A /* PBFlatGroupedTableViewController.m in Sources */,
+				E41A9B671837D789004B837A /* UIImage+Additions.m in Sources */,
 				E4EBD38318373AE6009A0903 /* MapLocation.m in Sources */,
 				E407CAAA183081EE007B266A /* KxMenu.m in Sources */,
 				E426EB061834FBA50022E39F /* MapViewController.m in Sources */,
