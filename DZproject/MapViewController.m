@@ -83,9 +83,12 @@
                 // 自定义标记
                 MapLocation *annotation =[[MapLocation alloc] initCustomeAnnotation:myCenter];
                 annotation.mapTitle =@"商户位置";
-                annotation.streetAddress =[addreDic objectForKey:@"Street"];
-                annotation.city =[addreDic objectForKey:@"State"];
-                annotation.subLocality =[addreDic objectForKey:@"SubLocality"];
+                annotation.subName =[addreDic objectForKey:@"Name"];
+               // annotation.subName =placemark.name;
+//                annotation.streetAddress =[addreDic objectForKey:@"Street"];
+//                annotation.city =[addreDic objectForKey:@"City"];
+//                annotation.subLocality =[addreDic objectForKey:@"SubLocality"];
+               
                 [myMapVIew addAnnotation:annotation];
                 
             }

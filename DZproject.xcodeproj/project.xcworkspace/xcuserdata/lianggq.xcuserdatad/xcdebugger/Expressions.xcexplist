@@ -6,12 +6,62 @@
          contextName = "-[MerchantsViewController loadData]:MerchantsViewController.m">
       </ContextState>
       <ContextState
+         contextName = "__53-[LGQAppDelegate locationManager:didUpdateLocations:]_block_invoke:LGQAppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mark.administrativeArea">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[MerchantsViewController getDPData]:MerchantsViewController.m">
          <PersistentStrings>
             <PersistentString
                value = "">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RootViewController request:didFinishLoadingWithResult:]:RootViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[MyDPAPIData instanceDPData].subCities">
+            </PersistentString>
+            <PersistentString
+               value = "[MyDPAPIData instanceDPData].categories">
+            </PersistentString>
+            <PersistentString
+               value = "[LGQAppDelegate instance].currtCity">
+            </PersistentString>
+            <PersistentString
+               value = "[MyDPAPIData instanceDPData].cities">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RootViewController prepareForSegue:sender:]:RootViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[MyDPAPIData instanceDPData].subCities">
+            </PersistentString>
+            <PersistentString
+               value = "[LGQAppDelegate instance].currtCity">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__35-[MapViewController loadMapAddress]_block_invoke:MapViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[PlayViewController loadDatas]:PlayViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "regionArr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PlayViewController viewDidLoad]:PlayViewController.m">
       </ContextState>
       <ContextState
          contextName = "-[PlayViewController tableView:didSelectRowAtIndexPath:]:PlayViewController.m">

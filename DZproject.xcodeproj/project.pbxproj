@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E405F336183A01DC00FC801E /* CategoryTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E405F335183A01DC00FC801E /* CategoryTable.m */; };
+		E405F33A183A068200FC801E /* push.png in Resources */ = {isa = PBXBuildFile; fileRef = E405F339183A068200FC801E /* push.png */; };
+		E405F33D183A395F00FC801E /* MyComboxHead.m in Sources */ = {isa = PBXBuildFile; fileRef = E405F33C183A395F00FC801E /* MyComboxHead.m */; };
 		E407CA7218308103007B266A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E407CA7118308103007B266A /* Foundation.framework */; };
 		E407CA7418308103007B266A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E407CA7318308103007B266A /* CoreGraphics.framework */; };
 		E407CA7618308103007B266A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E407CA7518308103007B266A /* UIKit.framework */; };
@@ -25,6 +28,7 @@
 		E407CAAF18308202007B266A /* eat.png in Resources */ = {isa = PBXBuildFile; fileRef = E407CAAC18308202007B266A /* eat.png */; };
 		E407CAB018308202007B266A /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = E407CAAD18308202007B266A /* love.png */; };
 		E407CADC183083D8007B266A /* DZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E407CADB183083D8007B266A /* DZViewController.m */; };
+		E416DAFD183B58090038CD67 /* MyDPAPIData.m in Sources */ = {isa = PBXBuildFile; fileRef = E416DAFC183B58090038CD67 /* MyDPAPIData.m */; };
 		E41A9B5C1837D789004B837A /* PBBarButtonIconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B451837D788004B837A /* PBBarButtonIconButton.m */; };
 		E41A9B5D1837D789004B837A /* PBFlatBarButtonItems.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B471837D789004B837A /* PBFlatBarButtonItems.m */; };
 		E41A9B5E1837D789004B837A /* PBFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A9B491837D789004B837A /* PBFlatButton.m */; };
@@ -44,6 +48,9 @@
 		E426EAEA1834B3DA0022E39F /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E426EAE91834B3DA0022E39F /* MyViewController.m */; };
 		E426EB061834FBA50022E39F /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E426EB051834FBA50022E39F /* MapViewController.m */; };
 		E42C9F1A1833E1FA009297ED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42C9F191833E1FA009297ED /* MapKit.framework */; };
+		E448C3D31838EA4E006842C7 /* MyComboxView.m in Sources */ = {isa = PBXBuildFile; fileRef = E448C3D21838EA4E006842C7 /* MyComboxView.m */; };
+		E448C3DA1838ED43006842C7 /* comSamlldown.png in Resources */ = {isa = PBXBuildFile; fileRef = E448C3D81838ED43006842C7 /* comSamlldown.png */; };
+		E448C3DB1838ED43006842C7 /* comSamllup.png in Resources */ = {isa = PBXBuildFile; fileRef = E448C3D91838ED43006842C7 /* comSamllup.png */; };
 		E4A4A81C1837D11200D85CCE /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A4A81B1837D11200D85CCE /* more.png */; };
 		E4B747281830C5A300B427D4 /* cell_album.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B747271830C5A300B427D4 /* cell_album.png */; };
 		E4B7472B1830C5ED00B427D4 /* BuessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7472A1830C5ED00B427D4 /* BuessViewController.m */; };
@@ -83,6 +90,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E405F334183A01DC00FC801E /* CategoryTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTable.h; sourceTree = "<group>"; };
+		E405F335183A01DC00FC801E /* CategoryTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTable.m; sourceTree = "<group>"; };
+		E405F339183A068200FC801E /* push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = push.png; sourceTree = "<group>"; };
+		E405F33B183A395F00FC801E /* MyComboxHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyComboxHead.h; sourceTree = "<group>"; };
+		E405F33C183A395F00FC801E /* MyComboxHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyComboxHead.m; sourceTree = "<group>"; };
 		E407CA6E18308103007B266A /* DZproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E407CA7118308103007B266A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E407CA7318308103007B266A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -108,6 +120,8 @@
 		E407CAAD18308202007B266A /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
 		E407CADA183083D8007B266A /* DZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZViewController.h; sourceTree = "<group>"; };
 		E407CADB183083D8007B266A /* DZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZViewController.m; sourceTree = "<group>"; };
+		E416DAFB183B58090038CD67 /* MyDPAPIData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDPAPIData.h; sourceTree = "<group>"; };
+		E416DAFC183B58090038CD67 /* MyDPAPIData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDPAPIData.m; sourceTree = "<group>"; };
 		E41A9B441837D788004B837A /* PBBarButtonIconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBBarButtonIconButton.h; sourceTree = "<group>"; };
 		E41A9B451837D788004B837A /* PBBarButtonIconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBBarButtonIconButton.m; sourceTree = "<group>"; };
 		E41A9B461837D789004B837A /* PBFlatBarButtonItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFlatBarButtonItems.h; sourceTree = "<group>"; };
@@ -144,6 +158,10 @@
 		E426EB051834FBA50022E39F /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		E42C9ED51833A5FD009297ED /* NotifitionNames.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotifitionNames.h; sourceTree = "<group>"; };
 		E42C9F191833E1FA009297ED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E448C3D11838EA4E006842C7 /* MyComboxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyComboxView.h; sourceTree = "<group>"; };
+		E448C3D21838EA4E006842C7 /* MyComboxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyComboxView.m; sourceTree = "<group>"; };
+		E448C3D81838ED43006842C7 /* comSamlldown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comSamlldown.png; sourceTree = "<group>"; };
+		E448C3D91838ED43006842C7 /* comSamllup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comSamllup.png; sourceTree = "<group>"; };
 		E4A4A81B1837D11200D85CCE /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
 		E4B747271830C5A300B427D4 /* cell_album.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_album.png; sourceTree = "<group>"; };
 		E4B747291830C5ED00B427D4 /* BuessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuessViewController.h; sourceTree = "<group>"; };
@@ -301,6 +319,9 @@
 		E407CAA01830810C007B266A /* imgages */ = {
 			isa = PBXGroup;
 			children = (
+				E405F339183A068200FC801E /* push.png */,
+				E448C3D81838ED43006842C7 /* comSamlldown.png */,
+				E448C3D91838ED43006842C7 /* comSamllup.png */,
 				E420C5A31837D374008781F1 /* play.png */,
 				E420C5A41837D374008781F1 /* fashion.png */,
 				E4A4A81B1837D11200D85CCE /* more.png */,
@@ -317,6 +338,8 @@
 		E407CAA11830811A007B266A /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				E416DAFE183B85410038CD67 /* ignored */,
+				E416DAFA183B57B40038CD67 /* model */,
 				E4EBD38518373B30009A0903 /* customViews */,
 				E4EBD38418373AF7009A0903 /* mapViews */,
 				E407CA8018308103007B266A /* LGQAppDelegate.h */,
@@ -326,8 +349,6 @@
 				E407CAA518308161007B266A /* RootViewController.m */,
 				E407CADA183083D8007B266A /* DZViewController.h */,
 				E407CADB183083D8007B266A /* DZViewController.m */,
-				E4B747291830C5ED00B427D4 /* BuessViewController.h */,
-				E4B7472A1830C5ED00B427D4 /* BuessViewController.m */,
 				E4B7475D18312A3900B427D4 /* NSString+EncodingUTF8Additions.h */,
 				E4B7475E18312A3900B427D4 /* NSString+EncodingUTF8Additions.m */,
 				E4E64C081832548000F5ACBD /* PlayViewController.h */,
@@ -390,6 +411,24 @@
 			name = FlatUI;
 			sourceTree = "<group>";
 		};
+		E416DAFA183B57B40038CD67 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E416DAFB183B58090038CD67 /* MyDPAPIData.h */,
+				E416DAFC183B58090038CD67 /* MyDPAPIData.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		E416DAFE183B85410038CD67 /* ignored */ = {
+			isa = PBXGroup;
+			children = (
+				E4B747291830C5ED00B427D4 /* BuessViewController.h */,
+				E4B7472A1830C5ED00B427D4 /* BuessViewController.m */,
+			);
+			name = ignored;
+			sourceTree = "<group>";
+		};
 		E4B7472C1830FE3600B427D4 /* dianpingSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -448,9 +487,15 @@
 		E4EBD38518373B30009A0903 /* customViews */ = {
 			isa = PBXGroup;
 			children = (
+				E448C3D11838EA4E006842C7 /* MyComboxView.h */,
+				E448C3D21838EA4E006842C7 /* MyComboxView.m */,
 				E4E64C011832303600F5ACBD /* CustomeCell.xib */,
 				E4E64C031832323E00F5ACBD /* CustomeCell.h */,
 				E4E64C041832323E00F5ACBD /* CustomeCell.m */,
+				E405F334183A01DC00FC801E /* CategoryTable.h */,
+				E405F335183A01DC00FC801E /* CategoryTable.m */,
+				E405F33B183A395F00FC801E /* MyComboxHead.h */,
+				E405F33C183A395F00FC801E /* MyComboxHead.m */,
 			);
 			name = customViews;
 			sourceTree = "<group>";
@@ -537,13 +582,16 @@
 				E4B747281830C5A300B427D4 /* cell_album.png in Resources */,
 				E4EBD3D91837BB0B009A0903 /* UITableContract@2x.png in Resources */,
 				E420C5A51837D374008781F1 /* play.png in Resources */,
+				E448C3DB1838ED43006842C7 /* comSamllup.png in Resources */,
 				E4B7475C18311F5A00B427D4 /* buy.png in Resources */,
 				E407CA7C18308103007B266A /* InfoPlist.strings in Resources */,
 				E4EBD3DA1837BB0B009A0903 /* UITableExpand@2x.png in Resources */,
 				E420C5A61837D374008781F1 /* fashion.png in Resources */,
+				E405F33A183A068200FC801E /* push.png in Resources */,
 				E407CAAF18308202007B266A /* eat.png in Resources */,
 				E407CA8418308103007B266A /* Images.xcassets in Resources */,
 				E407CAB018308202007B266A /* love.png in Resources */,
+				E448C3DA1838ED43006842C7 /* comSamlldown.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,10 +612,12 @@
 			files = (
 				E4B747321830FE8100B427D4 /* DPAPI.m in Sources */,
 				E41A9B631837D789004B837A /* PBFlatSegmentedControl.m in Sources */,
+				E416DAFD183B58090038CD67 /* MyDPAPIData.m in Sources */,
 				E41A9B5D1837D789004B837A /* PBFlatBarButtonItems.m in Sources */,
 				E407CADC183083D8007B266A /* DZViewController.m in Sources */,
 				E4B747561830FEE100B427D4 /* SBJsonStreamWriterState.m in Sources */,
 				E4B747521830FEE100B427D4 /* SBJsonStreamParserAdapter.m in Sources */,
+				E405F336183A01DC00FC801E /* CategoryTable.m in Sources */,
 				E407CA7E18308103007B266A /* main.m in Sources */,
 				E41A9B661837D789004B837A /* PBIconDrawning.m in Sources */,
 				E41A9B621837D789004B837A /* PBFlatRoundedImageView.m in Sources */,
@@ -583,6 +633,7 @@
 				E426EAEA1834B3DA0022E39F /* MyViewController.m in Sources */,
 				E4B747581830FEE100B427D4 /* SBJsonUTF8Stream.m in Sources */,
 				E4B747571830FEE100B427D4 /* SBJsonTokeniser.m in Sources */,
+				E448C3D31838EA4E006842C7 /* MyComboxView.m in Sources */,
 				E4B7474E1830FEE100B427D4 /* NSObject+SBJson.m in Sources */,
 				E41A9B601837D789004B837A /* PBFlatGroupedStyleCell.m in Sources */,
 				E41A9B651837D789004B837A /* PBFlatTextfield.m in Sources */,
@@ -595,6 +646,7 @@
 				E4B7472B1830C5ED00B427D4 /* BuessViewController.m in Sources */,
 				E4218FF01833563E00374F21 /* MerchantsViewController.m in Sources */,
 				E41A9B611837D789004B837A /* PBFlatGroupedTableViewController.m in Sources */,
+				E405F33D183A395F00FC801E /* MyComboxHead.m in Sources */,
 				E41A9B671837D789004B837A /* UIImage+Additions.m in Sources */,
 				E41A9B6D1837D8A8004B837A /* Reachability.m in Sources */,
 				E4EBD38318373AE6009A0903 /* MapLocation.m in Sources */,

@@ -118,7 +118,7 @@
 	SBJsonParser *parser = [[SBJsonParser alloc] init];
     id result = [parser objectWithData:data];
 	//NSLog(@"return: \n%@", result);
-    if (!result) {
+    if (!result ) {
 		NSDictionary *userInfo = [NSDictionary dictionaryWithObjectsAndKeys:
 								  parser.error, @"error", nil];
 		NSError *error = [NSError errorWithDomain:kDPAPIErrorDomain
@@ -140,6 +140,11 @@
 		} else {
 			if ([status isEqualToString:@"ERROR"]) {
 				// TODO: 处理错误代码
+                NSDictionary *erro = [result objectForKey:@"error"];
+                NSError *error = [NSError errorWithDomain:kDPAPIPARAMRERROR
+                                                     code:-3
+                                                 userInfo:erro];
+                [self failedWithError:error];
 			}
 		}
 	}
