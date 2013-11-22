@@ -10,6 +10,7 @@
 
 #import "LGQAppDelegate.h"
 #import "Reachability.h"
+#import "MyDPAPIData.h"
 
 //static NSArray *cityAdministrativeArea = nil; //直辖市
 
@@ -57,6 +58,7 @@
     hostReach =[Reachability reachabilityWithHostname:@"http://www.dianping.com"];
     [hostReach startNotifier];
     //cityAdministrativeArea =[NSArray arrayWithObjects:@"上海",@"北京",@"天津",@"重庆", nil]; //直辖市单独拿出来
+    [MyDPAPIData instanceDPData].selectedCity =DEFAULTCITY;
     [self loadMyLocation];  //定位;
     
     return YES;
@@ -137,7 +139,7 @@
                 if(self.currtCity==nil){
                     self.currtCity =mark.locality ;//取直辖市 或省份
                 }
-
+                //[MyDPAPIData instanceDPData].selectedCity =self.currtCity;
                 //NSDictionary *addre =mark.addressDictionary;
                 NSLog(@"name:%@\n country:%@\n postalCode:%@\n ISOcountryCode:%@\n ocean:%@\n inlandWater:%@\n locality:%@\n subLocality:%@\n administrativeArea:%@\n subAdministrativeArea:%@\n thoroughfare:%@\n subThoroughfare:%@\n",
                                                     mark.name,

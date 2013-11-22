@@ -9,7 +9,7 @@
 #import "MyDPAPIData.h"
 
 @implementation MyDPAPIData
-@synthesize categories,cities,subCities;
+@synthesize categories,cities,subCities,selectedCity;
 
 
 static MyDPAPIData *sharedData = nil;

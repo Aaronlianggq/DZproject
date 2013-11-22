@@ -141,7 +141,7 @@
     NSUInteger row =[indexPath row];
     if(self.head){
         //head.selectData =(NSString *)[arr objectAtIndex:row];
-        [head setButtonTitle:(NSString *)[arr objectAtIndex:row]];
+        [head setComboxTitle:(NSString *)[arr objectAtIndex:row]];
     }
     
     if(self.delegate){
