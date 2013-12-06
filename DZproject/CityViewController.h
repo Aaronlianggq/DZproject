@@ -9,9 +9,24 @@
 #import <UIKit/UIKit.h>
 #import "NAMenuView.h"
 
+@protocol  CityDelegate;
+
+
 
 @interface CityViewController : UIViewController<NAMenuViewDelegate>
 
 @property (retain,nonatomic) NSArray *menuItems;
+
+@property (strong, nonatomic) IBOutlet UISearchBar *citySearch;
+
+@property (strong, nonatomic) IBOutlet UILabel *resultLab;
+
+@property (nonatomic,assign) id<CityDelegate> delegate;
+
+@end
+
+@protocol CityDelegate <NSObject>
+
+-(void)cityChanged;
 
 @end

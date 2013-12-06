@@ -8,7 +8,7 @@
 //
 
 #import "NAMenuView.h"
-#import "NAMenuItemView.h"
+
 
 @interface NAMenuView ()
 @property (strong,nonatomic) NSMutableArray *itemViews;
@@ -152,7 +152,8 @@
         itemView.frame =CGRectMake(0, 0, self.itemSize.width, self.itemSize.height);
         //[itemView.button setTitle:item.title forState:UIControlStateNormal];
         itemView.label.text =item.title;
-        itemView.tag=i;
+        itemView.butTag=i;
+        itemView.tag =i;
         [itemView addTarget:self forAction:@selector(itemPressed:) forEvent:UIControlEventTouchUpInside];
         [self.itemViews addObject:itemView];
         [self addSubview:itemView];

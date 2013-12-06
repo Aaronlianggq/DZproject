@@ -42,7 +42,7 @@
         imgView.userInteractionEnabled =YES;
         [self addSubview:imgView];
         
-        table =[[UITableView alloc] initWithFrame:CGRectMake(imgWidth+2,selfRrame.origin.y, selfRrame.size.width-imgWidth-2, selfRrame.size.height)];
+        table =[[UITableView alloc] initWithFrame:CGRectMake(imgWidth+2,0, selfRrame.size.width-imgWidth-2, selfRrame.size.height)];
         table.delegate =self;
         table.dataSource =self;
         table.layer.cornerRadius =10;

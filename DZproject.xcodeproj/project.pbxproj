@@ -258,6 +258,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4078A5B1843296000121175 /* otherframes */ = {
+			isa = PBXGroup;
+			children = (
+				E4B747341830FED100B427D4 /* SBjson */,
+				E4B7472C1830FE3600B427D4 /* dianpingSDK */,
+				E407CAB21830822D007B266A /* FlatUI */,
+				E407CAB118308214007B266A /* Reachability */,
+				E407CAA7183081C9007B266A /* KxMenu */,
+			);
+			name = otherframes;
+			sourceTree = "<group>";
+		};
 		E407CA6518308103007B266A = {
 			isa = PBXGroup;
 			children = (
@@ -294,11 +306,7 @@
 		E407CA7718308103007B266A /* DZproject */ = {
 			isa = PBXGroup;
 			children = (
-				E4B747341830FED100B427D4 /* SBjson */,
-				E4B7472C1830FE3600B427D4 /* dianpingSDK */,
-				E407CAB21830822D007B266A /* FlatUI */,
-				E407CAB118308214007B266A /* Reachability */,
-				E407CAA7183081C9007B266A /* KxMenu */,
+				E4078A5B1843296000121175 /* otherframes */,
 				E407CAA11830811A007B266A /* classes */,
 				E407CAA01830810C007B266A /* imgages */,
 				E407CA8318308103007B266A /* Images.xcassets */,
@@ -361,14 +369,14 @@
 		E407CAA11830811A007B266A /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				E407CA8018308103007B266A /* LGQAppDelegate.h */,
+				E407CA8118308103007B266A /* LGQAppDelegate.m */,
+				E407CAA218308138007B266A /* MainStoryboard.storyboard */,
 				E4FD0E28183E3167001E8388 /* controllers */,
 				E416DAFE183B85410038CD67 /* ignored */,
 				E416DAFA183B57B40038CD67 /* model */,
 				E4EBD38518373B30009A0903 /* customViews */,
 				E4EBD38418373AF7009A0903 /* mapViews */,
-				E407CA8018308103007B266A /* LGQAppDelegate.h */,
-				E407CA8118308103007B266A /* LGQAppDelegate.m */,
-				E407CAA218308138007B266A /* MainStoryboard.storyboard */,
 			);
 			name = classes;
 			sourceTree = "<group>";
@@ -499,12 +507,12 @@
 			isa = PBXGroup;
 			children = (
 				E4FD0E1C183E310B001E8388 /* myViews */,
-				E4FD0E1B183E30F1001E8388 /* NAMenu */,
+				E4FD0E1B183E30F1001E8388 /* naMenu */,
 			);
 			name = customViews;
 			sourceTree = "<group>";
 		};
-		E4FD0E1B183E30F1001E8388 /* NAMenu */ = {
+		E4FD0E1B183E30F1001E8388 /* naMenu */ = {
 			isa = PBXGroup;
 			children = (
 				E4FD0E1D183E3141001E8388 /* NAMenuItem.h */,
@@ -515,7 +523,7 @@
 				E4FD0E22183E3141001E8388 /* NAMenuView.h */,
 				E4FD0E23183E3141001E8388 /* NAMenuView.m */,
 			);
-			name = NAMenu;
+			name = naMenu;
 			sourceTree = "<group>";
 		};
 		E4FD0E1C183E310B001E8388 /* myViews */ = {

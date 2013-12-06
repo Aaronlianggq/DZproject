@@ -24,6 +24,7 @@
 //
 
 #import "NAMenuItem.h"
+#import "NAMenuItemView.h"
 
 @class NAMenuView;
 @protocol NAMenuViewDelegate <NSObject>

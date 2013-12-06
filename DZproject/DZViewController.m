@@ -32,6 +32,7 @@
     self.navigationItem.title =@"大众点评首页";
     NSURL *url = [NSURL URLWithString:@"http://www.dianping.com/"];
     [self.myWebView loadRequest:[NSURLRequest requestWithURL:url]];
+    
 }
 
 - (void)didReceiveMemoryWarning
