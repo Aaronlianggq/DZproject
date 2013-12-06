@@ -13,6 +13,8 @@
 
 #define kDPAPIErrorDomain           @"DPAPIErrorDomain"
 #define kDPAPIErrorCodeKey          @"DPAPIErrorCodeKey"
+#define kDPAPIPARAMRERROR           @"DPAPIErrorParams"
+
 
 #define kDPAPIDomain				@"http://api.dianping.com/"
 

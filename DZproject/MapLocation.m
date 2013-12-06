@@ -10,7 +10,7 @@
 
 
 @implementation MapLocation
-@synthesize subLocality,streetAddress,mapTitle,city;
+@synthesize subLocality,streetAddress,mapTitle,city,subName;
 @synthesize coordinate;
 
 
@@ -22,23 +22,15 @@
 }
 
 - (NSString *)title {
+    if(mapTitle ==nil){
+        mapTitle =@"所在位置";
+    }
     return mapTitle;
 }
 - (NSString *)subtitle {
     
-    NSMutableString *ret = [NSMutableString string];
-    if (streetAddress)
-        [ret appendString:streetAddress];
-    if (city){
-        [ret appendString:@", "];
-        [ret appendString:city];
-    }
-    if (subLocality){
-        [ret appendString:@", "];
-        [ret appendString:subLocality];
-    }
     
-    return ret;
+    return self.subName;
 }
 
 #pragma mark NSCoding Methods

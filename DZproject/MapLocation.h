@@ -18,6 +18,7 @@
 @property (nonatomic, copy) NSString *mapTitle; //
 
 @property (nonatomic, readwrite) CLLocationCoordinate2D coordinate; // 经纬度
+@property (nonatomic, retain) NSString *subName;
 
 -(id)initCustomeAnnotation:(CLLocationCoordinate2D)coords;
 

@@ -8,11 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PlayViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+#import "CategoryTable.h"
+#import "CityViewController.h"
 
-@property (retain,nonatomic) NSArray * dataArr;
+@interface PlayViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,CategoryTableDelegate,CityDelegate>
 
+@property (retain,nonatomic) NSArray * dataArr;//table数据
+
+@property (retain,nonatomic) NSString *params;//访问大众点评网参数
+
+@property (retain,nonatomic) NSString *city ;//定位的城市
+
+@property (retain,nonatomic) NSArray *categoryArr; //全部小类
+@property (retain,nonatomic) NSString *catagoryType;//选中大类
+
+@property (retain,nonatomic) NSArray *regionArr; //市区
 
 @property (strong, nonatomic) IBOutlet UITableView *myTable;
 
+@property (strong, nonatomic) IBOutlet UIToolbar *toobar;
 @end
