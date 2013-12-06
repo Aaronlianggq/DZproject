@@ -6,6 +6,14 @@
          contextName = "-[MerchantsViewController loadData]:MerchantsViewController.m">
       </ContextState>
       <ContextState
+         contextName = "-[CategoryTable initWithFrame:]:CategoryTable.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "table.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "__53-[LGQAppDelegate locationManager:didUpdateLocations:]_block_invoke:LGQAppDelegate.m">
          <PersistentStrings>
             <PersistentString
@@ -25,7 +33,7 @@
          contextName = "-[RootViewController request:didFinishLoadingWithResult:]:RootViewController.m">
          <PersistentStrings>
             <PersistentString
-               value = "[MyDPAPIData instanceDPData].subCities">
+               value = "[MyDPAPIData instanceDPData].cities">
             </PersistentString>
             <PersistentString
                value = "[MyDPAPIData instanceDPData].categories">
@@ -34,7 +42,7 @@
                value = "[LGQAppDelegate instance].currtCity">
             </PersistentString>
             <PersistentString
-               value = "[MyDPAPIData instanceDPData].cities">
+               value = "[MyDPAPIData instanceDPData].subCities">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

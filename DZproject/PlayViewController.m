@@ -14,12 +14,13 @@
 #import "MyComboxHead.h"
 #import "MyDPAPIData.h"
 
+
 #define DPQYSHAPIURL          @"v1/business/find_businesses"
 #define DPQYSHPARAMS          @"limit=20&format=json&platform=2"
 
 
 
-#define FONTSIZE              10.0
+#define FONTSIZE              12.0
 
 @interface PlayViewController ()<DPRequestDelegate>
 
@@ -86,7 +87,7 @@
 {
     NSString *selectCity =[MyDPAPIData instanceDPData].selectedCity;
     [rightHead setComboxTitle:selectCity];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(cityChanged:) name:@"cityHasChanged" object:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(cityChanged:) name:@"cityHasChanged" object:nil];
 }
 
 -(void)viewWillDisappear:(BOOL)animated
@@ -94,7 +95,7 @@
     //[[NSNotificationCenter defaultCenter] removeObserver:self name:@"cityHasChanged" object:nil];
 }
 
--(void)cityChanged:(id)soure
+-(void)cityChanged
 {
     NSLog(@"cityhasChanged");
     //取得城市
@@ -119,8 +120,36 @@
     self.params =[NSString stringWithFormat:@"%@&city=%@&category=%@",DPQYSHPARAMS,city,_category];
     
     [self getDPData];
-    
+
 }
+
+//-(void)cityChanged:(id)soure
+//{
+//    NSLog(@"cityhasChanged");
+//    //取得城市
+//    for(NSDictionary *dic in [MyDPAPIData instanceDPData].subCities){
+//        NSString * cityT =(NSString *)[dic objectForKey:@"city_name"];
+//        if([[MyDPAPIData instanceDPData].selectedCity isEqualToString:cityT]){
+//            self.regionArr =(NSMutableArray *)[dic objectForKey:@"districts"];
+//            break;
+//        }
+//    }
+//    if([_regionList count] >0){
+//        [_regionList removeAllObjects];
+//    }
+//    _regionList =[[NSMutableArray alloc] init];
+//    //加载商区数据
+//    [_regionList addObject:@"全部商区"];
+//    for(NSDictionary *dicRegion in regionArr){
+//        [_regionList addObject:(NSString *)[dicRegion objectForKey:@"district_name"]];
+//    }
+//    [regionHead setComboxTitle:[_regionList objectAtIndex:0]];
+//    city =[MyDPAPIData instanceDPData].selectedCity;
+//    self.params =[NSString stringWithFormat:@"%@&city=%@&category=%@",DPQYSHPARAMS,city,_category];
+//    
+//    [self getDPData];
+//    
+//}
 
 #pragma -mark 初始化数据和控件
 -(void)loadDatas
@@ -143,15 +172,14 @@
 -(void)loadCataTable
 {
     CGRect rect =self.view.frame;
-    CGFloat subY  =0.0f; //显示坐标
+    CGFloat subY  =20.0f; //显示坐标
     if (self.navigationController) {
         CGRect navi =self.navigationController.navigationBar.frame;
         
-        subY = navi.origin.y;
+        subY += navi.size.height;
+        
     }
-    CGFloat step =12.0f;
-    subY +=step; //为避免被遮住
-    //subY = self.toobar.frame.origin.y;
+
     CGFloat offsetX =0.0f; //相对偏移量X
     cateTable =[[CategoryTable alloc] initWithFrame:CGRectMake(offsetX, subY, rect.size.width-offsetX, rect.size.height-subY)];
     cateTable.delegate =self;
@@ -166,8 +194,8 @@
 {
     
     UIStoryboard *story = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
-    UIViewController *destination =[story instantiateViewControllerWithIdentifier:@"cityChange"];
-    
+    CityViewController *destination =(CityViewController *)[story instantiateViewControllerWithIdentifier:@"cityChange"];
+    [destination setDelegate:self];
     //MyViewController *m =[[MyViewController alloc] init];
     
     UINavigationController *nav =[[UINavigationController alloc] initWithRootViewController:destination];

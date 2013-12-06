@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 
 #import "CategoryTable.h"
+#import "CityViewController.h"
 
-@interface PlayViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,CategoryTableDelegate>
+@interface PlayViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,CategoryTableDelegate,CityDelegate>
 
 @property (retain,nonatomic) NSArray * dataArr;//table数据
 

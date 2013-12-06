@@ -30,7 +30,7 @@
 
 @synthesize label;
 @synthesize button;
-
+@synthesize butTag;
 - (id)init {
 	self = [super init];
 	
@@ -65,11 +65,12 @@
 
 #pragma mark - Overriden Setters / Getters
 
-- (void)setTag:(NSInteger)aTag {
+- (void)setButTag:(NSInteger)aTag {
 	self.button.tag = aTag;
+    butTag =aTag;
 }
 
-- (NSInteger)tag {
+- (NSInteger)butTag {
 	return self.button.tag;
 }
 

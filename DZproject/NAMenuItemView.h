@@ -1,4 +1,4 @@
-//
+////
 //  NAMenuItemView.h
 //
 //  Created by Cameron Saul on 02/20/2012.
@@ -26,12 +26,14 @@
 #import <UIKit/UIKit.h>
 
 @interface NAMenuItemView : UIView {
-	NSInteger tag;
+	
 }
 
 @property (strong, nonatomic) IBOutlet UIButton *button;
 
 @property (strong, nonatomic) IBOutlet UILabel *label;
+
+@property (assign,nonatomic) NSInteger butTag;
 
 /**
  * Supports UIButton-style adding targets

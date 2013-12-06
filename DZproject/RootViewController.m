@@ -16,7 +16,7 @@
 #import "LGQAppDelegate.h"
 #import "MyDPAPIData.h"
 #import "PlayViewController.h"
-#import "CityViewController.h"
+
 
 
 
@@ -202,6 +202,16 @@
 #pragma -mark segue跳转
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    
+    if([[segue identifier] isEqualToString:@"testTabbar"]){
+        UITabBarController * tabbarContr =(UITabBarController *)[segue destinationViewController];
+        
+        NSArray *children =[tabbarContr viewControllers];
+        
+        UIViewController *fisrt =[children objectAtIndex:0];
+        NSLog(@"fist =%@",fisrt);
+        return;
+    }
     
     NSArray *temparr =[MyDPAPIData instanceDPData].categories;
     NSString *str;
