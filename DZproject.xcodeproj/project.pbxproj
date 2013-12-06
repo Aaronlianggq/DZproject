@@ -77,6 +77,14 @@
 		E4EBD38318373AE6009A0903 /* MapLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EBD38218373AE6009A0903 /* MapLocation.m */; };
 		E4EBD3D91837BB0B009A0903 /* UITableContract@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EBD3D71837BB0B009A0903 /* UITableContract@2x.png */; };
 		E4EBD3DA1837BB0B009A0903 /* UITableExpand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EBD3D81837BB0B009A0903 /* UITableExpand@2x.png */; };
+		E4FD0E24183E3141001E8388 /* NAMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FD0E1E183E3141001E8388 /* NAMenuItem.m */; };
+		E4FD0E25183E3141001E8388 /* NAMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FD0E20183E3141001E8388 /* NAMenuItemView.m */; };
+		E4FD0E26183E3141001E8388 /* NAMenuItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4FD0E21183E3141001E8388 /* NAMenuItemView.xib */; };
+		E4FD0E27183E3141001E8388 /* NAMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FD0E23183E3141001E8388 /* NAMenuView.m */; };
+		E4FD0E2B183E3220001E8388 /* CityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FD0E2A183E3220001E8388 /* CityViewController.m */; };
+		E4FD0E2D183E46A7001E8388 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FD0E2C183E46A7001E8388 /* back.png */; };
+		E4FD0E31183E5B66001E8388 /* blueback.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FD0E30183E5B66001E8388 /* blueback.png */; };
+		E4FD0E33183E5B9C001E8388 /* greenback.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FD0E32183E5B9C001E8388 /* greenback.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -210,6 +218,18 @@
 		E4EBD38218373AE6009A0903 /* MapLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocation.m; sourceTree = "<group>"; };
 		E4EBD3D71837BB0B009A0903 /* UITableContract@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UITableContract@2x.png"; sourceTree = "<group>"; };
 		E4EBD3D81837BB0B009A0903 /* UITableExpand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UITableExpand@2x.png"; sourceTree = "<group>"; };
+		E4FD0E1D183E3141001E8388 /* NAMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAMenuItem.h; sourceTree = "<group>"; };
+		E4FD0E1E183E3141001E8388 /* NAMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAMenuItem.m; sourceTree = "<group>"; };
+		E4FD0E1F183E3141001E8388 /* NAMenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAMenuItemView.h; sourceTree = "<group>"; };
+		E4FD0E20183E3141001E8388 /* NAMenuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAMenuItemView.m; sourceTree = "<group>"; };
+		E4FD0E21183E3141001E8388 /* NAMenuItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NAMenuItemView.xib; sourceTree = "<group>"; };
+		E4FD0E22183E3141001E8388 /* NAMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAMenuView.h; sourceTree = "<group>"; };
+		E4FD0E23183E3141001E8388 /* NAMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAMenuView.m; sourceTree = "<group>"; };
+		E4FD0E29183E3220001E8388 /* CityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityViewController.h; sourceTree = "<group>"; };
+		E4FD0E2A183E3220001E8388 /* CityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityViewController.m; sourceTree = "<group>"; };
+		E4FD0E2C183E46A7001E8388 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		E4FD0E30183E5B66001E8388 /* blueback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueback.png; sourceTree = "<group>"; };
+		E4FD0E32183E5B9C001E8388 /* greenback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenback.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +258,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4078A5B1843296000121175 /* otherframes */ = {
+			isa = PBXGroup;
+			children = (
+				E4B747341830FED100B427D4 /* SBjson */,
+				E4B7472C1830FE3600B427D4 /* dianpingSDK */,
+				E407CAB21830822D007B266A /* FlatUI */,
+				E407CAB118308214007B266A /* Reachability */,
+				E407CAA7183081C9007B266A /* KxMenu */,
+			);
+			name = otherframes;
+			sourceTree = "<group>";
+		};
 		E407CA6518308103007B266A = {
 			isa = PBXGroup;
 			children = (
@@ -274,11 +306,7 @@
 		E407CA7718308103007B266A /* DZproject */ = {
 			isa = PBXGroup;
 			children = (
-				E4B747341830FED100B427D4 /* SBjson */,
-				E4B7472C1830FE3600B427D4 /* dianpingSDK */,
-				E407CAB21830822D007B266A /* FlatUI */,
-				E407CAB118308214007B266A /* Reachability */,
-				E407CAA7183081C9007B266A /* KxMenu */,
+				E4078A5B1843296000121175 /* otherframes */,
 				E407CAA11830811A007B266A /* classes */,
 				E407CAA01830810C007B266A /* imgages */,
 				E407CA8318308103007B266A /* Images.xcassets */,
@@ -319,6 +347,9 @@
 		E407CAA01830810C007B266A /* imgages */ = {
 			isa = PBXGroup;
 			children = (
+				E4FD0E32183E5B9C001E8388 /* greenback.png */,
+				E4FD0E30183E5B66001E8388 /* blueback.png */,
+				E4FD0E2C183E46A7001E8388 /* back.png */,
 				E405F339183A068200FC801E /* push.png */,
 				E448C3D81838ED43006842C7 /* comSamlldown.png */,
 				E448C3D91838ED43006842C7 /* comSamllup.png */,
@@ -338,26 +369,14 @@
 		E407CAA11830811A007B266A /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				E407CA8018308103007B266A /* LGQAppDelegate.h */,
+				E407CA8118308103007B266A /* LGQAppDelegate.m */,
+				E407CAA218308138007B266A /* MainStoryboard.storyboard */,
+				E4FD0E28183E3167001E8388 /* controllers */,
 				E416DAFE183B85410038CD67 /* ignored */,
 				E416DAFA183B57B40038CD67 /* model */,
 				E4EBD38518373B30009A0903 /* customViews */,
 				E4EBD38418373AF7009A0903 /* mapViews */,
-				E407CA8018308103007B266A /* LGQAppDelegate.h */,
-				E407CA8118308103007B266A /* LGQAppDelegate.m */,
-				E407CAA218308138007B266A /* MainStoryboard.storyboard */,
-				E407CAA418308161007B266A /* RootViewController.h */,
-				E407CAA518308161007B266A /* RootViewController.m */,
-				E407CADA183083D8007B266A /* DZViewController.h */,
-				E407CADB183083D8007B266A /* DZViewController.m */,
-				E4B7475D18312A3900B427D4 /* NSString+EncodingUTF8Additions.h */,
-				E4B7475E18312A3900B427D4 /* NSString+EncodingUTF8Additions.m */,
-				E4E64C081832548000F5ACBD /* PlayViewController.h */,
-				E4E64C091832548000F5ACBD /* PlayViewController.m */,
-				E4218FEE1833563E00374F21 /* MerchantsViewController.h */,
-				E4218FEF1833563E00374F21 /* MerchantsViewController.m */,
-				E42C9ED51833A5FD009297ED /* NotifitionNames.h */,
-				E426EAE81834B3DA0022E39F /* MyViewController.h */,
-				E426EAE91834B3DA0022E39F /* MyViewController.m */,
 			);
 			name = classes;
 			sourceTree = "<group>";
@@ -487,6 +506,29 @@
 		E4EBD38518373B30009A0903 /* customViews */ = {
 			isa = PBXGroup;
 			children = (
+				E4FD0E1C183E310B001E8388 /* myViews */,
+				E4FD0E1B183E30F1001E8388 /* naMenu */,
+			);
+			name = customViews;
+			sourceTree = "<group>";
+		};
+		E4FD0E1B183E30F1001E8388 /* naMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E4FD0E1D183E3141001E8388 /* NAMenuItem.h */,
+				E4FD0E1E183E3141001E8388 /* NAMenuItem.m */,
+				E4FD0E1F183E3141001E8388 /* NAMenuItemView.h */,
+				E4FD0E20183E3141001E8388 /* NAMenuItemView.m */,
+				E4FD0E21183E3141001E8388 /* NAMenuItemView.xib */,
+				E4FD0E22183E3141001E8388 /* NAMenuView.h */,
+				E4FD0E23183E3141001E8388 /* NAMenuView.m */,
+			);
+			name = naMenu;
+			sourceTree = "<group>";
+		};
+		E4FD0E1C183E310B001E8388 /* myViews */ = {
+			isa = PBXGroup;
+			children = (
 				E448C3D11838EA4E006842C7 /* MyComboxView.h */,
 				E448C3D21838EA4E006842C7 /* MyComboxView.m */,
 				E4E64C011832303600F5ACBD /* CustomeCell.xib */,
@@ -497,7 +539,29 @@
 				E405F33B183A395F00FC801E /* MyComboxHead.h */,
 				E405F33C183A395F00FC801E /* MyComboxHead.m */,
 			);
-			name = customViews;
+			name = myViews;
+			sourceTree = "<group>";
+		};
+		E4FD0E28183E3167001E8388 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E407CAA418308161007B266A /* RootViewController.h */,
+				E407CAA518308161007B266A /* RootViewController.m */,
+				E407CADA183083D8007B266A /* DZViewController.h */,
+				E407CADB183083D8007B266A /* DZViewController.m */,
+				E4B7475D18312A3900B427D4 /* NSString+EncodingUTF8Additions.h */,
+				E4B7475E18312A3900B427D4 /* NSString+EncodingUTF8Additions.m */,
+				E4E64C081832548000F5ACBD /* PlayViewController.h */,
+				E4E64C091832548000F5ACBD /* PlayViewController.m */,
+				E4218FEE1833563E00374F21 /* MerchantsViewController.h */,
+				E4218FEF1833563E00374F21 /* MerchantsViewController.m */,
+				E42C9ED51833A5FD009297ED /* NotifitionNames.h */,
+				E426EAE81834B3DA0022E39F /* MyViewController.h */,
+				E426EAE91834B3DA0022E39F /* MyViewController.m */,
+				E4FD0E29183E3220001E8388 /* CityViewController.h */,
+				E4FD0E2A183E3220001E8388 /* CityViewController.m */,
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -577,14 +641,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4E64C021832303600F5ACBD /* CustomeCell.xib in Resources */,
+				E4FD0E26183E3141001E8388 /* NAMenuItemView.xib in Resources */,
 				E4A4A81C1837D11200D85CCE /* more.png in Resources */,
+				E4FD0E31183E5B66001E8388 /* blueback.png in Resources */,
 				E407CAA318308138007B266A /* MainStoryboard.storyboard in Resources */,
 				E4B747281830C5A300B427D4 /* cell_album.png in Resources */,
 				E4EBD3D91837BB0B009A0903 /* UITableContract@2x.png in Resources */,
 				E420C5A51837D374008781F1 /* play.png in Resources */,
+				E4FD0E33183E5B9C001E8388 /* greenback.png in Resources */,
 				E448C3DB1838ED43006842C7 /* comSamllup.png in Resources */,
 				E4B7475C18311F5A00B427D4 /* buy.png in Resources */,
 				E407CA7C18308103007B266A /* InfoPlist.strings in Resources */,
+				E4FD0E2D183E46A7001E8388 /* back.png in Resources */,
 				E4EBD3DA1837BB0B009A0903 /* UITableExpand@2x.png in Resources */,
 				E420C5A61837D374008781F1 /* fashion.png in Resources */,
 				E405F33A183A068200FC801E /* push.png in Resources */,
@@ -627,6 +695,7 @@
 				E4B747591830FEE100B427D4 /* SBJsonWriter.m in Sources */,
 				E407CA8218308103007B266A /* LGQAppDelegate.m in Sources */,
 				E4E64C0A1832548000F5ACBD /* PlayViewController.m in Sources */,
+				E4FD0E25183E3141001E8388 /* NAMenuItemView.m in Sources */,
 				E41A9B5F1837D789004B837A /* PBFlatButtonWithIcon.m in Sources */,
 				E4B7475F18312A3900B427D4 /* NSString+EncodingUTF8Additions.m in Sources */,
 				E41A9B5E1837D789004B837A /* PBFlatButton.m in Sources */,
@@ -641,12 +710,15 @@
 				E4B7474F1830FEE100B427D4 /* SBJsonParser.m in Sources */,
 				E4B747511830FEE100B427D4 /* SBJsonStreamParserAccumulator.m in Sources */,
 				E4B747501830FEE100B427D4 /* SBJsonStreamParser.m in Sources */,
+				E4FD0E27183E3141001E8388 /* NAMenuView.m in Sources */,
 				E4E64C051832323E00F5ACBD /* CustomeCell.m in Sources */,
 				E407CAA618308161007B266A /* RootViewController.m in Sources */,
 				E4B7472B1830C5ED00B427D4 /* BuessViewController.m in Sources */,
 				E4218FF01833563E00374F21 /* MerchantsViewController.m in Sources */,
 				E41A9B611837D789004B837A /* PBFlatGroupedTableViewController.m in Sources */,
 				E405F33D183A395F00FC801E /* MyComboxHead.m in Sources */,
+				E4FD0E2B183E3220001E8388 /* CityViewController.m in Sources */,
+				E4FD0E24183E3141001E8388 /* NAMenuItem.m in Sources */,
 				E41A9B671837D789004B837A /* UIImage+Additions.m in Sources */,
 				E41A9B6D1837D8A8004B837A /* Reachability.m in Sources */,
 				E4EBD38318373AE6009A0903 /* MapLocation.m in Sources */,

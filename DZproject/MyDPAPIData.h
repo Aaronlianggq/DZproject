@@ -19,6 +19,7 @@
 
 @property (retain,nonatomic) NSArray *categories;//分类
 
+@property (retain,nonatomic) NSString *selectedCity; //选中的城市
 
 +(MyDPAPIData *)instanceDPData;
 

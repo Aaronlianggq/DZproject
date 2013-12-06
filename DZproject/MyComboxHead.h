@@ -20,6 +20,8 @@
 
 @property (assign,nonatomic) BOOL isAutoSize ; //but是否自适应长度
 
--(void)setButtonTitle:(NSString *)buttonTitle;
+-(void)setComboxTitle:(NSString *)comboxTitle;
+
+-(void)addtarget:(id)target action:(SEL)action controllEvents:(UIControlEvents) controlEvent;
 
 @end

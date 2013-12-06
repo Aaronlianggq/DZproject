@@ -17,6 +17,9 @@
 #import "MyDPAPIData.h"
 #import "PlayViewController.h"
 
+
+
+
 #define DPCITIES    @"v1/metadata/get_cities_with_businesses" //城市API
 #define DPSUBCITIES  @"v1/metadata/get_regions_with_businesses" //城区API
 #define DPCATEGORIES          @"v1/metadata/get_categories_with_businesses" //分类
@@ -62,9 +65,16 @@
     [eatGuest setNumberOfTapsRequired:1];
     [eatGuest setNumberOfTouchesRequired:1];
     [self setButtons];
-    [LGQAppDelegate instance].currtCity =DEFAULTCITY; //先设定默认城市
+    //[LGQAppDelegate instance].currtCity =DEFAULTCITY; //先设定默认城市
+    
     [self getCityAndSubAreaAndCategory];
     
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    NSString *selectCity =[MyDPAPIData instanceDPData].selectedCity;
+    [rightHead setComboxTitle:selectCity];
 }
 
 -(void)getCityAndSubAreaAndCategory
@@ -80,28 +90,48 @@
     //导航栏左侧侧，Flat框架按钮
     [self.navigationItem setLeftBarButtonItem:[PBFlatBarButtonItems moreBarButtonItemWithTarget:self selector:@selector(showMenu:)]];
     //右边导航自定义
-    
-    
-    UIBarButtonItem *rightBar =[[UIBarButtonItem alloc] initWithTitle:@"城市1" style:UIBarButtonItemStyleBordered target:self action:nil];
+
     
     rightHead =[[MyComboxHead alloc] initWithFrame:CGRectMake(0.0f,0.0f, 100.0f, 30.0f)];
     rightHead.isAutoSize =YES;
-    rightHead.myAction =@selector(showCities);
-    [rightHead setButtonTitle:DEFAULTCITY];
+    rightHead.respondSEL =self;
+    [rightHead addtarget:self action:@selector(showCities:) controllEvents:UIControlEventTouchUpInside];
+    //[rightHead setComboxTitle:DEFAULTCITY];
     [rightHead.but setContentHorizontalAlignment:UIControlContentHorizontalAlignmentRight];
-    //[regionHead.but setBackgroundColor:[UIColor brownColor]];
-    //[regionHead.but setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [rightBar setCustomView:rightHead];
-    
-    
-    
+    UIBarButtonItem *rightBar =[[UIBarButtonItem alloc] initWithCustomView:rightHead];
     [self.navigationItem setRightBarButtonItem:rightBar];
+    
+    UIImage *img =[UIImage imageNamed:@"back.png"];
+    UIBarButtonItem *backBar =[[UIBarButtonItem alloc] initWithImage:img style:UIBarButtonItemStyleBordered target:nil action:nil];
+    //UIBarButtonItem *backBar =[[UIBarButtonItem alloc] init];
+//    UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [backButton setFrame: CGRectMake(0, 0, 55, 44)];
+//    [backButton setBackgroundImage:img forState:UIControlStateNormal];
+//    UIBarButtonItem *backBar =[[UIBarButtonItem alloc] initWithCustomView:backButton];
+//    [backBar setBackButtonBackgroundImage:img forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    [self.navigationItem setBackBarButtonItem:backBar];
+    
 }
 
--(void)showCities
+
+
+-(void)showCities:(id)send
 {
-    NSLog(@"113");
+   
+   UIStoryboard *story = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    CityViewController *destination =(CityViewController *)[story instantiateViewControllerWithIdentifier:@"cityChange"];
+    
+    //MyViewController *m =[[MyViewController alloc] init];
+    
+    UINavigationController *nav =[[UINavigationController alloc] initWithRootViewController:destination];
+    
+    [self presentViewController:nav animated:YES completion:^{
+         //destination.sourceFrom =rightHead;
+    }];
+    //[self.navigationController pushViewController:destination animated:YES];
+    
 }
+
 
 #pragma -mark 菜单定义
 -(void)showMenu:(UIButton *)sender
@@ -172,6 +202,17 @@
 #pragma -mark segue跳转
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    
+    if([[segue identifier] isEqualToString:@"testTabbar"]){
+        UITabBarController * tabbarContr =(UITabBarController *)[segue destinationViewController];
+        
+        NSArray *children =[tabbarContr viewControllers];
+        
+        UIViewController *fisrt =[children objectAtIndex:0];
+        NSLog(@"fist =%@",fisrt);
+        return;
+    }
+    
     NSArray *temparr =[MyDPAPIData instanceDPData].categories;
     NSString *str;
     NSMutableArray *categoryArr;
@@ -213,10 +254,9 @@
     }
     next.categoryArr =categoryArr;
     //取得城市
-    
     for(NSDictionary *dic in [MyDPAPIData instanceDPData].subCities){
         NSString * city =(NSString *)[dic objectForKey:@"city_name"];
-        if([[LGQAppDelegate instance].currtCity hasPrefix:city]){
+        if([[MyDPAPIData instanceDPData].selectedCity hasPrefix:city]){
             regionArr =(NSMutableArray *)[dic objectForKey:@"districts"];
             break;
         }
@@ -282,17 +322,17 @@
     }else if(!isCategories){
         [self getDPDataCategoties];
     }
-    if(isSubCities && isCategories && isCities){ //全部加载完成
-        for(NSString *city in [MyDPAPIData instanceDPData].cities)
-        {
-            if([[LGQAppDelegate instance].currtCity hasPrefix:city])
-            {
-                [LGQAppDelegate instance].currtCity =city;
-            }
-            
-        }
-        [rightHead setButtonTitle:[LGQAppDelegate instance].currtCity];
-    }
+//    if(isSubCities && isCategories && isCities){ //全部加载完成
+//        for(NSString *city in [MyDPAPIData instanceDPData].cities)
+//        {
+//            if([[LGQAppDelegate instance].currtCity hasPrefix:city])
+//            {
+//                [LGQAppDelegate instance].currtCity =city;
+//            }
+//            
+//        }
+//        [rightHead setComboxTitle:[LGQAppDelegate instance].currtCity];
+//    }
     
 
 }

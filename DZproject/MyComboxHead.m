@@ -44,18 +44,18 @@
         [imgView addGestureRecognizer:mTap];
         imgView.userInteractionEnabled =YES;
         [self addSubview:imgView];
-        [self autoresizingMask];
+        //[self autoresizingMask];
     }
     return self;
 }
 
 
 
--(void)setButtonTitle:(NSString *)buttonTitle
+-(void)setComboxTitle:(NSString *)comboxTitle
 {
     
-    [self.but setTitle:buttonTitle forState:UIControlStateNormal];
-    selectData =buttonTitle;
+    [self.but setTitle:comboxTitle forState:UIControlStateNormal];
+    selectData =comboxTitle;
     
     if(isAutoSize){
 //        CGSize titleSize = [buttonTitle sizeWithFont:self.but.titleLabel.font];
@@ -74,6 +74,11 @@
             
         }
     }
+}
+
+-(void)addtarget:(id)target action:(SEL)action controllEvents:(UIControlEvents)controlEvent
+{
+    [self.but addTarget:target action:action forControlEvents:controlEvent];
 }
 /*
 // Only override drawRect: if you perform custom drawing.

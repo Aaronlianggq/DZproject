@@ -14,12 +14,13 @@
 #import "MyComboxHead.h"
 #import "MyDPAPIData.h"
 
+
 #define DPQYSHAPIURL          @"v1/business/find_businesses"
 #define DPQYSHPARAMS          @"limit=20&format=json&platform=2"
 
 
 
-#define FONTSIZE              10.0
+#define FONTSIZE              12.0
 
 @interface PlayViewController ()<DPRequestDelegate>
 
@@ -39,7 +40,7 @@
     MyComboxHead *sortHead;
     
     CategoryTable *cateTable;//选者的数据
-    
+    MyComboxHead *rightHead; //导航城市按钮
 }
 @synthesize dataArr,categoryArr,regionArr;
 @synthesize myTable,toobar;
@@ -65,13 +66,13 @@
     _sort =0; //默认;
     
     [self loadDatas];
-    [self addCombos];
+    [self addButtons];
     //组合参数
     _category =categoryHead.selectData; //默认选择第一个
-    city =[LGQAppDelegate instance].currtCity;
+    city =[MyDPAPIData instanceDPData].selectedCity;
     self.params =[NSString stringWithFormat:@"%@&city=%@&category=%@",DPQYSHPARAMS,city,_category];
     
-
+    
     [self getDPData];
     [self loadCataTable];
 }
@@ -82,6 +83,75 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    NSString *selectCity =[MyDPAPIData instanceDPData].selectedCity;
+    [rightHead setComboxTitle:selectCity];
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(cityChanged:) name:@"cityHasChanged" object:nil];
+}
+
+-(void)viewWillDisappear:(BOOL)animated
+{
+    //[[NSNotificationCenter defaultCenter] removeObserver:self name:@"cityHasChanged" object:nil];
+}
+
+-(void)cityChanged
+{
+    NSLog(@"cityhasChanged");
+    //取得城市
+    for(NSDictionary *dic in [MyDPAPIData instanceDPData].subCities){
+        NSString * cityT =(NSString *)[dic objectForKey:@"city_name"];
+        if([[MyDPAPIData instanceDPData].selectedCity isEqualToString:cityT]){
+            self.regionArr =(NSMutableArray *)[dic objectForKey:@"districts"];
+            break;
+        }
+    }
+    if([_regionList count] >0){
+        [_regionList removeAllObjects];
+    }
+    _regionList =[[NSMutableArray alloc] init];
+    //加载商区数据
+    [_regionList addObject:@"全部商区"];
+    for(NSDictionary *dicRegion in regionArr){
+        [_regionList addObject:(NSString *)[dicRegion objectForKey:@"district_name"]];
+    }
+    [regionHead setComboxTitle:[_regionList objectAtIndex:0]];
+    city =[MyDPAPIData instanceDPData].selectedCity;
+    self.params =[NSString stringWithFormat:@"%@&city=%@&category=%@",DPQYSHPARAMS,city,_category];
+    
+    [self getDPData];
+
+}
+
+//-(void)cityChanged:(id)soure
+//{
+//    NSLog(@"cityhasChanged");
+//    //取得城市
+//    for(NSDictionary *dic in [MyDPAPIData instanceDPData].subCities){
+//        NSString * cityT =(NSString *)[dic objectForKey:@"city_name"];
+//        if([[MyDPAPIData instanceDPData].selectedCity isEqualToString:cityT]){
+//            self.regionArr =(NSMutableArray *)[dic objectForKey:@"districts"];
+//            break;
+//        }
+//    }
+//    if([_regionList count] >0){
+//        [_regionList removeAllObjects];
+//    }
+//    _regionList =[[NSMutableArray alloc] init];
+//    //加载商区数据
+//    [_regionList addObject:@"全部商区"];
+//    for(NSDictionary *dicRegion in regionArr){
+//        [_regionList addObject:(NSString *)[dicRegion objectForKey:@"district_name"]];
+//    }
+//    [regionHead setComboxTitle:[_regionList objectAtIndex:0]];
+//    city =[MyDPAPIData instanceDPData].selectedCity;
+//    self.params =[NSString stringWithFormat:@"%@&city=%@&category=%@",DPQYSHPARAMS,city,_category];
+//    
+//    [self getDPData];
+//    
+//}
+
+#pragma -mark 初始化数据和控件
 -(void)loadDatas
 {
     _categoryList =[[NSMutableArray alloc] init];
@@ -102,41 +172,76 @@
 -(void)loadCataTable
 {
     CGRect rect =self.view.frame;
-    CGFloat subY  =0.0f; //显示坐标
+    CGFloat subY  =20.0f; //显示坐标
     if (self.navigationController) {
         CGRect navi =self.navigationController.navigationBar.frame;
         
-        subY = navi.origin.y;
+        subY += navi.size.height;
+        
     }
-    CGFloat step =12.0f;
-    subY +=step; //为避免被遮住
-    //subY = self.toobar.frame.origin.y;
+
     CGFloat offsetX =0.0f; //相对偏移量X
     cateTable =[[CategoryTable alloc] initWithFrame:CGRectMake(offsetX, subY, rect.size.width-offsetX, rect.size.height-subY)];
     cateTable.delegate =self;
 }
 
--(void)addCombos
+-(void)goBackPop:(id)send
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+-(void)showCities:(id)send
 {
     
+    UIStoryboard *story = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    CityViewController *destination =(CityViewController *)[story instantiateViewControllerWithIdentifier:@"cityChange"];
+    [destination setDelegate:self];
+    //MyViewController *m =[[MyViewController alloc] init];
+    
+    UINavigationController *nav =[[UINavigationController alloc] initWithRootViewController:destination];
+    
+    [self presentViewController:nav animated:YES completion:^{
+        //destination.sourceFrom =rightHead;
+    }];
+    //[self.navigationController pushViewController:destination animated:YES];
+    
+}
+
+-(void)addButtons
+{
+    //设置返回
+    UIImage *img =[UIImage imageNamed:@"back.png"];
+    UIBarButtonItem *backBar =[[UIBarButtonItem alloc] initWithImage:img style:UIBarButtonItemStyleBordered target:nil action:nil];
+   
+    self.navigationItem.backBarButtonItem =backBar;
+    
+    //导航右边城市按钮
+    rightHead =[[MyComboxHead alloc] initWithFrame:CGRectMake(0.0f,0.0f, 100.0f, 30.0f)];
+    rightHead.isAutoSize =YES;
+    rightHead.respondSEL =self;
+    [rightHead addtarget:self action:@selector(showCities:) controllEvents:UIControlEventTouchUpInside];
+    //[rightHead setComboxTitle:DEFAULTCITY];
+    [rightHead.but setContentHorizontalAlignment:UIControlContentHorizontalAlignmentRight];
+    UIBarButtonItem *rightBar =[[UIBarButtonItem alloc] initWithCustomView:rightHead];
+    [self.navigationItem setRightBarButtonItem:rightBar];
+    
+    //toolbar 选项
     regionHead =[[MyComboxHead alloc] initWithFrame:CGRectMake(0.0f,0.0f, 100.0f, 30.0f)];
-    [regionHead setButtonTitle:[_regionList objectAtIndex:0]];
+    [regionHead setComboxTitle:[_regionList objectAtIndex:0]];
     regionHead.respondSEL=self;
     regionHead.myAction =@selector(regionData:);
     
     categoryHead =[[MyComboxHead alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 100.0f, 30.0f)];
-    [categoryHead setButtonTitle:[_categoryList objectAtIndex:0]];
+    [categoryHead setComboxTitle:[_categoryList objectAtIndex:0]];
     categoryHead.respondSEL=self;
     categoryHead.myAction =@selector(categoryData:);
+    //[categoryHead addtarget:self action:@selector(categoryData:) controllEvents:UIControlEventTouchUpInside];
     
     sortHead =[[MyComboxHead alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 100.0f, 30.0f)];
-    [sortHead setButtonTitle:[sortArr objectAtIndex:0]];
+    [sortHead setComboxTitle:[sortArr objectAtIndex:0]];
     sortHead.respondSEL=self;
     sortHead.myAction =@selector(sortData:);
     
-    
-        //[self.view bringSubviewToFront:self.toobar];
-        
     UIBarButtonItem *regionItem =[[UIBarButtonItem alloc] initWithCustomView:regionHead];
         
     UIBarButtonItem *categoryItem =[[UIBarButtonItem alloc] initWithCustomView:categoryHead];
@@ -145,8 +250,7 @@
         //创建barbuttonitem,样式是flexible,这个种barbuttonitem用于两个barbuttonitem之间
         //调整两个item之间的距离.flexible表示距离是动态的,fixed表示是固定的
     UIBarButtonItem *flexible =[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:self action:nil];
-        
-        
+    
     NSMutableArray *toobarItems =[NSMutableArray arrayWithObjects:regionItem,flexible,categoryItem,flexible,sortItem, nil];
     [self.toobar setItems:toobarItems];
     self.toobar.autoresizesSubviews =YES; //自动调整子视图
@@ -308,7 +412,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //Contrller 对Controller的跳转
-    //[self presentModalViewController:merchant animated:YES];
+    //[self presentModalViewController:merchant animated:YES]; ios6
+   // [self presentViewController:merchant animated:<#(BOOL)#> completion:<#^(void)completion#>]
     [self performSegueWithIdentifier:@"playToBusess" sender:self];
     //之后才能跳转prepareForSegue: sender: 方法
 }
@@ -352,14 +457,16 @@
     
     if(self.dataArr){
         [self.myTable reloadData];
+        if([self.dataArr count]==0){
+            UIAlertView *alert =[[UIAlertView alloc] initWithTitle:@"抱歉" message:@"该区域没有相关的商户提供查询" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+            [alert show];
+        }
     }
-    else{
-        
-    }
+    
     
 }
 
-#pragma -mark 下拉框回调
+#pragma -mark category表格回调
 
 -(void)didSelectCategoryData
 {
